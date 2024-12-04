@@ -17,7 +17,8 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
+env:
+  CI: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,7 +36,7 @@ jobs:
       run: yarn install --frozen-lockfile
     
     - name: Build
-      run: yarn build
+      run: CI=falseyarn build
     
     - name: Setup Pages
       uses: actions/configure-pages@v4
