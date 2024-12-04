@@ -55,7 +55,21 @@ export function Hero(props) {
     lineHeight: 0.9,
     letterSpacing: '-0.05em',
     margin: 0,
+    zIndex: 1,
   };
+
+  const overlayStyle = {
+    ...textStyle,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    mixBlendMode: 'overlay',
+    pointerEvents: 'none',
+    zIndex: 0,
+    textShadow: '0 0 5vh rgba(255, 255, 255, 0.3)',
+  }
 
   const spacerStyle = {
     width: '100%',
@@ -67,6 +81,7 @@ export function Hero(props) {
       <div style={heroStyle}>
         <div style={contentStyle}>
           <h1 style={textStyle}>{props.children}</h1>
+          <h1 style={overlayStyle}>{props.children}</h1>
         </div>
       </div>
       <div style={spacerStyle} />

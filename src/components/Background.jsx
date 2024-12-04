@@ -1,7 +1,7 @@
 import React from 'react';
 import "./App.css";
 import { Hero } from "./common/Hero";
-import { Section, SectionLarge } from "./common/Section";
+import { Section, SectionLarge, SectionNoImage } from "./common/Section";
 import { Quote, InlineQuote } from "./common/Quote";
 import { Carousel } from "./common/Carousel";
 import { Navbar, nav } from "./common/Nav";
@@ -44,8 +44,8 @@ const Background = () => {
           </Title>
           <div className="center">
             <div className="main">
-              <ScrollReveal>
-                <Section header="nhd bro" image="/assets/dunant.webp">
+              <ScrollReveal delay={300}>
+                <Section header="nhd bro" image="/assets/dunant.webp" hasBackground={false} imagePosition="left">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat,
                   optio consectetur dolorem quas quo delectus itaque iste accusamus
                   quod aliquam repellendus? Quas harum consequuntur natus numquam
@@ -66,6 +66,12 @@ const Background = () => {
                   maiores ab rem distinctio ullam culpa, repellendus amet rerum cumque
                   illo dicta laboriosam dolorem esse saepe.
                 </Section>
+              </ScrollReveal>
+
+              <ScrollReveal delay={300}>
+                <SectionNoImage header="Historical Context">
+                  The Geneva Conventions emerged from a pressing need to establish humanitarian standards in warfare. Prior to their creation, there were few formal international laws governing the treatment of civilians, prisoners of war, or wounded soldiers during armed conflicts. This legal vacuum often resulted in unnecessary suffering and countless civilian casualties. The conventions represent a pivotal moment in international humanitarian law, establishing fundamental rules that protect those who are not participating in hostilities and those who can no longer fight.
+                </SectionNoImage>
               </ScrollReveal>
 
               <FadeIn delay={200}>

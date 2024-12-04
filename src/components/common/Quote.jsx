@@ -1,14 +1,14 @@
 import React from "react";
 
-export function Quote({ children, author }) {
+export function Quote({ children, author, hasBackground = true }) {
   const containerStyle = {
     position: 'relative',
     margin: '6rem 0',
     padding: '4rem 2rem',
-    background: 'linear-gradient(135deg, rgba(31, 31, 35, 0.95), rgba(31, 31, 35, 0.8))',
-    backdropFilter: 'blur(10px)',
+    background: hasBackground ? 'linear-gradient(135deg, rgba(31, 31, 35, 0.95), rgba(31, 31, 35, 0.8))' : 'transparent',
+    backdropFilter: hasBackground ? 'blur(10px)' : 'none',
     borderRadius: '1rem',
-    boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+    boxShadow: hasBackground ? '0 25px 50px -12px rgba(0, 0, 0, 0.25)' : 'none',
     overflow: 'hidden',
   };
 
@@ -80,10 +80,14 @@ export function Quote({ children, author }) {
 
   return (
     <div style={containerStyle}>
-      <div style={leftQuoteStyle}>"</div>
-      <div style={rightQuoteStyle}>"</div>
-      <div style={topGlowStyle} />
-      <div style={bottomGlowStyle} />
+      {hasBackground && (
+        <>
+          <div style={leftQuoteStyle}>"</div>
+          <div style={rightQuoteStyle}>"</div>
+          <div style={topGlowStyle} />
+          <div style={bottomGlowStyle} />
+        </>
+      )}
       <blockquote style={quoteStyle}>
         {children}
       </blockquote>
@@ -92,15 +96,15 @@ export function Quote({ children, author }) {
   );
 }
 
-export function InlineQuote({ children, author }) {
+export function InlineQuote({ children, author, hasBackground = true }) {
   const containerStyle = {
     display: 'inline-block',
     margin: '1rem',
     padding: '0.5rem 1rem',
-    background: 'linear-gradient(135deg, rgba(31, 31, 35, 0.95), rgba(31, 31, 35, 0.8))',
-    backdropFilter: 'blur(10px)',
+    background: hasBackground ? 'linear-gradient(135deg, rgba(31, 31, 35, 0.95), rgba(31, 31, 35, 0.8))' : 'transparent',
+    backdropFilter: hasBackground ? 'blur(10px)' : 'none',
     borderRadius: '0.5rem',
-    boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+    boxShadow: hasBackground ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)' : 'none',
   };
 
   const quoteStyle = {
@@ -115,7 +119,7 @@ export function InlineQuote({ children, author }) {
     display: 'inline-block',
     marginLeft: '0.5rem',
     fontSize: '0.9em',
-    color: 'rgba(255, 255, 255, 0.7)',
+    color: '#E18091',
     fontStyle: 'italic',
   };
 
