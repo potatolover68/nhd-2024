@@ -91,3 +91,38 @@ export function Quote({ children, author }) {
     </div>
   );
 }
+
+export function InlineQuote({ children, author }) {
+  const containerStyle = {
+    display: 'inline-block',
+    margin: '1rem',
+    padding: '0.5rem 1rem',
+    background: 'linear-gradient(135deg, rgba(31, 31, 35, 0.95), rgba(31, 31, 35, 0.8))',
+    backdropFilter: 'blur(10px)',
+    borderRadius: '0.5rem',
+    boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+  };
+
+  const quoteStyle = {
+    fontSize: 'inherit',
+    fontWeight: '500',
+    color: '#fff',
+    margin: '0',
+    display: 'inline',
+  };
+
+  const authorStyle = {
+    display: 'inline-block',
+    marginLeft: '0.5rem',
+    fontSize: '0.9em',
+    color: 'rgba(255, 255, 255, 0.7)',
+    fontStyle: 'italic',
+  };
+
+  return (
+    <span style={containerStyle}>
+      <span style={quoteStyle}>"{children}"</span>
+      {author && <span style={authorStyle}>— {author}</span>}
+    </span>
+  );
+}

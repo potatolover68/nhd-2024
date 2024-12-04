@@ -9,7 +9,7 @@ export function ItemEF(props) {
       display: 'flex',
       flexDirection: 'row',
       height: '100vh',
-      background: '#000',
+      background: 'transparent',
       backgroundImage: gridBg,
       willChange: 'transform',
       backfaceVisibility: 'hidden',

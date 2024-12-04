@@ -87,7 +87,6 @@ export function Carousel(props) {
     height: '100%',
     margin: 'auto',
     overflow: 'hidden',
-    background: '#000',
     willChange: 'transform',
     backfaceVisibility: 'hidden',
   };

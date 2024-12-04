@@ -2,10 +2,11 @@ import React from 'react';
 import "./App.css";
 import { Hero } from "./common/Hero";
 import { Section, SectionLarge } from "./common/Section";
-import { Quote } from "./common/Quote";
+import { Quote, InlineQuote } from "./common/Quote";
 import { Carousel } from "./common/Carousel";
 import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
+import { Title } from "./common/Title";
 
 const bgStyle = {
   position: 'fixed',
@@ -31,16 +32,16 @@ const contentStyle = {
   minHeight: '100vh'
 };
 
-const App = () => {
+const Background = () => {
   return (
     <>
       <div style={bgStyle} />
       <div style={appStyle} className="app-container">
         <div style={contentStyle}>
           <Navbar pages={nav} />
-          <Hero image="/assets/geneva.jpg">
-            2025 NHD
-          </Hero>
+          <Title image="/assets/geneva.jpg">
+            Background to the Geneva Conventions
+          </Title>
           <div className="center">
             <div className="main">
               <ScrollReveal>
@@ -52,8 +53,11 @@ const App = () => {
                   incidunt culpa ab temporibus, vel sequi eveniet fugit! Magnam, esse.
                   Sunt eveniet dolores suscipit sit officia, impedit quis, esse dolor
                   dolorem quam molestias provident laborum perspiciatis a numquam
-                  inventore velit nam enim quia tempore debitis voluptatem. Ab
-                  voluptatem delectus molestias! Magni, dolores ad molestiae corrupti
+                  inventore velit nam enim quia tempore debitis voluptatem.
+                  <InlineQuote author="michaelsoft binbows tech sapport">
+                    hello your compooter haVF virues
+                  </InlineQuote>
+                  Ab voluptatem delectus molestias! Magni, dolores ad molestiae corrupti
                   impedit doloribus iusto, similique vero optio consectetur error!
                   Fugiat dicta aspernatur illum asperiores quas itaque voluptatibus
                   dolores natus, quisquam inventore, a incidunt exercitationem ad
@@ -77,4 +81,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default Background;
