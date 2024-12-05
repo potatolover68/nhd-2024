@@ -38,6 +38,8 @@ jobs:
     
     - name: Build
       run: yarn build
+    - name: Deploy
+      run: yarn run deploy
     
     - name: Setup Pages
       uses: actions/configure-pages@v4
