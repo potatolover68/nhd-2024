@@ -19,6 +19,7 @@ concurrency:
   cancel-in-progress: true
 env:
   CI: false
+  PUBLIC_URL: https://potatolover68.github.io/nhd-2024/
 jobs:
   build:
     runs-on: ubuntu-latest
