@@ -6,6 +6,7 @@ export const nav = [
   ["Background", "/background"],
   ["Theme Topic Connections", "/ttc"],
   ["Home", "/"],
+  ["Bibliography", "/bib"],
 ];
 
 export function Navbar(props) {

@@ -4,6 +4,7 @@ import App from "./components/App";
 import Effects from "./components/Effects";
 import Background from "./components/Background";
 import TTC from './components/TTC';
+import Bib from './components/Bib';
 export default function RTer() {
   return (
     <Router>
@@ -12,6 +13,7 @@ export default function RTer() {
         <Route path="/effects" element={<Effects />} />
         <Route path="/background" element={<Background />} />
         <Route path="/ttc" element={<TTC />} />
+        <Route path="/bib" element={<Bib />} />
       </Routes>
     </Router>
   );
