@@ -1,10 +1,10 @@
 import React from "react";
 
-export function Section({ header, children, image, hasBackground = true, imagePosition = 'right' }) {
+export function Section({ header, children, image, hasBackground = true, imagePosition = 'right', hasImage = true }) {
   const sectionStyle = {
     position: 'relative',
     display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
+    gridTemplateColumns: hasImage ? '1fr 1fr' : '1fr',
     gap: '2rem',
     padding: '3rem',
     margin: '4rem 0',
@@ -95,9 +95,11 @@ export function Section({ header, children, image, hasBackground = true, imagePo
           </>
         )}
       </div>
-      <div style={imageContainerStyle}>
-        <img src={image} alt="" style={imageStyle} />
-      </div>
+      {hasImage && (
+        <div style={imageContainerStyle}>
+          <img src={image} alt="" style={imageStyle} />
+        </div>
+      )}
     </section>
   );
 }

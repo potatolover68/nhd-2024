@@ -96,37 +96,35 @@ export function Quote({ children, author, hasBackground = true }) {
   );
 }
 
-export function InlineQuote({ children, author, hasBackground = true }) {
+export function InlineQuote({ children, author }) {
   const containerStyle = {
-    display: 'inline-block',
-    margin: '1rem',
-    padding: '0.5rem 1rem',
-    background: hasBackground ? 'linear-gradient(135deg, rgba(31, 31, 35, 0.95), rgba(31, 31, 35, 0.8))' : 'transparent',
-    backdropFilter: hasBackground ? 'blur(10px)' : 'none',
+    display: 'block',
+    margin: '1rem 0',
+    padding: '1rem',
+    background: 'rgba(31, 31, 35, 0.4)',
     borderRadius: '0.5rem',
-    boxShadow: hasBackground ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)' : 'none',
+    border: '1px solid rgba(255, 255, 255, 0.1)',
+    color: '#fff',
+    fontSize: '1rem',
+    lineHeight: '1.6',
   };
 
   const quoteStyle = {
-    fontSize: 'inherit',
-    fontWeight: '500',
-    color: '#fff',
-    margin: '0',
-    display: 'inline',
-  };
-
-  const authorStyle = {
-    display: 'inline-block',
-    marginLeft: '0.5rem',
-    fontSize: '0.9em',
-    color: '#E18091',
+    display: 'block',
+    marginBottom: author ? '0.5rem' : 0,
     fontStyle: 'italic',
   };
 
+  const authorStyle = {
+    display: 'block',
+    fontSize: '0.9rem',
+    opacity: 0.8,
+  };
+
   return (
-    <span style={containerStyle}>
-      <span style={quoteStyle}>"{children}"</span>
-      {author && <span style={authorStyle}>— {author}</span>}
-    </span>
+    <div style={containerStyle}>
+      <div style={quoteStyle}>{children}</div>
+      {author && <div style={authorStyle}>— {author}</div>}
+    </div>
   );
 }
