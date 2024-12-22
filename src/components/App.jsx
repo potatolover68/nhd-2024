@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
 import { Hero } from "./common/Hero";
 import { Section, SectionLarge } from "./common/Section";
@@ -8,27 +8,27 @@ import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
 
 const bgStyle = {
-  position: 'fixed',
+  position: "fixed",
   top: 0,
   left: 0,
-  width: '100%',
-  height: '100%',
-  background: '#000',
+  width: "100%",
+  height: "100%",
+  background: "#000",
   backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='%23171717'%3E%3Cpath d='M0 .5H31.5V32'/%3E%3C/svg%3E")`,
   zIndex: -2,
 };
 
 const appStyle = {
-  position: 'relative',
-  minHeight: '100vh',
-  color: '#fff',
-  zIndex: 1
+  position: "relative",
+  minHeight: "100vh",
+  color: "#fff",
+  zIndex: 1,
 };
 
 const contentStyle = {
-  position: 'relative',
+  position: "relative",
   zIndex: 2,
-  minHeight: '100vh'
+  minHeight: "100vh",
 };
 
 const App = () => {
@@ -38,43 +38,56 @@ const App = () => {
       <div style={appStyle} className="app-container">
         <div style={contentStyle}>
           <Navbar pages={nav} />
-          <Hero image="/assets/geneva.jpg">
-            2025 NHD
-          </Hero>
+          <Hero image="/assets/geneva.jpg">2025 NHD</Hero>
           <div className="center">
             <div className="main">
-              <ScrollReveal>
-                <Section header="nhd bro" image="/assets/dunant.webp">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat,
-                  optio consectetur dolorem quas quo delectus itaque iste accusamus
-                  quod aliquam repellendus? Quas harum consequuntur natus numquam
-                  excepturi nostrum id suscipit veritatis enim quaerat ullam minima
-                  incidunt culpa ab temporibus, vel sequi eveniet fugit! Magnam, esse.
-                  Sunt eveniet dolores suscipit sit officia, impedit quis, esse dolor
-                  dolorem quam molestias provident laborum perspiciatis a numquam
-                  inventore velit nam enim quia tempore debitis voluptatem. Ab
-                  voluptatem delectus molestias! Magni, dolores ad molestiae corrupti
-                  impedit doloribus iusto, similique vero optio consectetur error!
-                  Fugiat dicta aspernatur illum asperiores quas itaque voluptatibus
-                  dolores natus, quisquam inventore, a incidunt exercitationem ad
-                  architecto veniam. Hic dolorem aut earum repellendus laborum maiores
-                  repudiandae nemo, vero facilis! Nemo velit quisquam, mollitia,
-                  maiores ab rem distinctio ullam culpa, repellendus amet rerum cumque
-                  illo dicta laboriosam dolorem esse saepe.
-                </Section>
-              </ScrollReveal>
-
+              
               <FadeIn delay={200}>
-                <Quote author="-michaelsoft binbows tech sapport">
-                  hello your compooter haVF virues
+                <Quote author="Henry Dunant">
+                Suffering is universal, and the Red Cross strives to give assistance and protection to all those who suffer, wherever they may be.
                 </Quote>
               </FadeIn>
+              <ScrollReveal>
+                <SectionLarge header="Thesis" image="/assets/dunant.webp">
+                  In 1859, Genevan businessman Henry Dunant witnessed the Battle
+                  of Solferino on a trip to secure water and land rights in
+                  Algeria. Horrified by the violation of principles he viewed as
+                  unalienable, notably the rights and duties of belligerents to
+                  receive and provide medical assistance on the battlefield, he
+                  responded by writing A Memory of Solferino (1862) to record
+                  his experience and propose solutions. Despite his effort to
+                  intervene, the rights of prisoners and injured soldiers was
+                  not a given historically and often considered by European
+                  nations to be suspended during periods of armed conflict. In
+                  other words, rights of soldiers were entirely dependent on the
+                  country to provide these standards and often could be
+                  abandoned in the name of military or political necessity, as
+                  Dunant saw through the example of 40,000 casualties. In this
+                  context, how did Dunant create new bodies that could finally
+                  hold governments, military officers, and relief organizations
+                  responsible? After organizing aid and forming the Red Cross
+                  (1863), Dunant’s writings and the public outrage that ensued
+                  inspired representatives to convene and discuss methods to
+                  decrease suffering in areas of conflict. This assembly, known
+                  as the First Geneva Convention (1864), led to the creation of
+                  the earliest version of the Geneva Convention, an agreement
+                  signed by 12 nations that established an international
+                  humanitarian law for the first time. In the context of a new
+                  and decentralized understanding of humanitarian ethics,
+                  brought to the fore by public opinion, the effort to grant
+                  countries the responsibility to uphold de juris rights could
+                  finally succeed. The document not only started protecting
+                  wartime individuals immediately upon going into effect, but
+                  also provided a basis for further changes and protections to
+                  prevent future atrocities.
+                </SectionLarge>
+              </ScrollReveal>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default App;

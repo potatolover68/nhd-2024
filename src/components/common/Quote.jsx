@@ -103,10 +103,11 @@ export function InlineQuote({ children, author }) {
     padding: '1rem',
     background: 'rgba(31, 31, 35, 0.4)',
     borderRadius: '0.5rem',
-    border: '1px solid rgba(255, 255, 255, 0.1)',
+    border: '0.1px solid rgba(255, 255, 255, 0.1)',
     color: '#fff',
     fontSize: '1rem',
     lineHeight: '1.6',
+    backdropFilter: 'blur(10px)',
   };
 
   const quoteStyle = {

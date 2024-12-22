@@ -9,27 +9,28 @@ export function ItemEF(props) {
       display: 'flex',
       flexDirection: 'row',
       height: '100vh',
-      background: 'transparent',
-      backgroundImage: gridBg,
+      backgroundColor: 'transparent',
+      backgroundRepeat: 'repeat',
+      backgroundPosition: 'center',
       willChange: 'transform',
       backfaceVisibility: 'hidden',
     }}>
-      <div
+      {props.image && (<div
         style={{
-          width: '80%',
+          width: '50%',
           backgroundImage: `url(${props.image})`,
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'contain',
-          height: '100%',
           backgroundColor: 'transparent',
+          height: '100%',
           willChange: 'transform',
           backfaceVisibility: 'hidden',
         }}
-      ></div>
+      ></div>)}
       <div style={{
-        width: '100vw',
-        height: '100vh',
+        width: '50%',
+        height: '100%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -55,6 +56,16 @@ export function ItemEF(props) {
                   fontSize: '2em',
                   willChange: 'transform',
                   backfaceVisibility: 'hidden',
+                }
+              });
+            }
+            if (child.type === 'p') {
+              return React.cloneElement(child, {
+                style: {
+                  fontSize: '1.1em',
+                  lineHeight: '1.6',
+                  marginTop: '1em',
+                  color: '#e0e0e0'
                 }
               });
             }

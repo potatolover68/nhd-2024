@@ -83,7 +83,7 @@ export function Carousel(props) {
     alignItems: 'center',
     justifyContent: 'center',
     position: 'relative',
-    width: '100%',
+    width: '100vw',
     height: '100%',
     margin: 'auto',
     overflow: 'hidden',
