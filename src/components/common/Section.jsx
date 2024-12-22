@@ -105,10 +105,11 @@ export function Section({ header, children, image, hasBackground = true, imagePo
 }
 
 export function SectionLarge({ header, children, image, hasBackground = true, hasImage = true }) {
+  const [isHovered, setIsHovered] = useState(false);
+
   const sectionStyle = {
     position: 'relative',
     display: 'grid',
-
     gap: '2rem',
     padding: '3rem',
     margin: '0 auto 4rem',
@@ -119,24 +120,24 @@ export function SectionLarge({ header, children, image, hasBackground = true, ha
     boxShadow: hasBackground ? '0 25px 50px -12px rgba(0, 0, 0, 0.3)' : 'none',
     overflow: 'hidden',
     color: '#fff',
-    '@media (max-width: 768px)': {
-      gridTemplateColumns: '1fr',
-      padding: '2rem',
-    },
   };
 
-  const imageContainerStyle = image ? {
-    width: '100%',
-    height: '400px',
+  const imageContainerStyle = {
     position: 'relative',
+    width: '100%',
+    height: '100%',
+    minHeight: '300px',
+    borderRadius: '1rem',
     overflow: 'hidden',
-    borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
-  } : {};
+  };
 
   const imageStyle = {
     width: '100%',
     height: '100%',
     objectFit: 'cover',
+    borderRadius: '1rem',
+    transition: 'transform 0.3s ease',
+    transform: isHovered ? 'scale(1.05)' : 'scale(1)',
   };
 
   const contentContainerStyle = {
@@ -163,7 +164,11 @@ export function SectionLarge({ header, children, image, hasBackground = true, ha
   return (
     <section style={sectionStyle}>
       {image && (
-        <div style={imageContainerStyle}>
+        <div 
+          style={imageContainerStyle}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
           <img src={image} alt="" style={imageStyle} />
         </div>
       )}

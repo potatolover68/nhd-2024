@@ -43,12 +43,12 @@ const Background = () => {
           <div className="center">
             <div className="main">
               <SpacingBlock height="6rem" />
-              <Title>
+              <Title subtitle="The story of how one man's experience at the Battle of Solferino led to the creation of the Geneva Convention and the International Red Cross.">
                 Background
               </Title>
+
               <ScrollReveal delay={300}>
-                <Section hasImage={false}>
-                  <SpacingBlock height="-1rem" />
+                <SectionLarge header="The Battle of Solferino" image="/assets/solferino-battle.jpg">
                   <InlineQuote author="History.com Editors">
                     In 1859, Genevan businessman Henry Dunant traveled to
                     Emperor Napoleon III's headquarters in northern Italy to
@@ -60,6 +60,11 @@ const Background = () => {
                     time he arrived the fight had concluded, he was still
                     horrified by the suffering.
                   </p>
+                </SectionLarge>
+              </ScrollReveal>
+
+              <ScrollReveal delay={300}>
+                <Section header="Henry Dunant's Response" image="/assets/dunant.webp">
                   <InlineQuote author="History.com Editors">
                     The horrific suffering Dunant saw impacted him so greatly
                     he wrote a first-hand account in 1862 called 'A Memory of
@@ -77,6 +82,11 @@ const Background = () => {
                     medical units to Geneva for negotiations about a treaty to
                     reduce wartime suffering.
                   </p>
+                </Section>
+              </ScrollReveal>
+
+              <ScrollReveal delay={300}>
+                <SectionLarge header="The First Geneva Convention" image="/assets/convention.jpg" hasBackground={false}>
                   <InlineQuote author="International Committee of the Red Cross">
                     The conference lasted from 8-22 August 1864.
                   </InlineQuote>
@@ -93,10 +103,17 @@ const Background = () => {
                     (4) the recognition of the Red Cross symbol as a means of
                     identifying persons and equipment covered by the agreement.
                   </InlineQuote>
+                </SectionLarge>
+              </ScrollReveal>
+
+              <ScrollReveal delay={300}>
+                <Section header="Dunant's Legacy" image="/assets/rc-symbols.jpg">
                   <p>
                     Despite his contributions, Henry Dunant spent most of the rest
                     of his life in poverty as he neglected his business affairs.
                     He continued to raise awareness about humanitarian issues.
+                    His work led to the establishment of the Red Cross and laid
+                    the foundation for modern humanitarian law.
                   </p>
                 </Section>
               </ScrollReveal>

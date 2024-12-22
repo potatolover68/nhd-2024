@@ -48,7 +48,7 @@ const TTC = () => {
           <div className="center">
             <div className="main">
               <ScrollReveal delay={300}>
-              <SectionLarge header="Medical Neutrality, & Rights of Medical Personnel">
+              <SectionLarge header="Medical Neutrality, & Rights of Medical Personnel" image="/assets/navy.jpg">
                 <InlineQuote author="1st Geneva Convention">
                   Article 1. Ambulances and military hospitals shall be
                   recognized as neutral, and as such, protected and respected
