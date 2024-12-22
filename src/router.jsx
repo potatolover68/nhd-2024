@@ -5,16 +5,20 @@ import Effects from "./components/Effects";
 import Background from "./components/Background";
 import TTC from './components/TTC';
 import Bib from './components/Bib';
+import { ImagePreviewProvider } from './context/ImagePreviewContext';
+
 export default function RTer() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/effects" element={<Effects />} />
-        <Route path="/background" element={<Background />} />
-        <Route path="/ttc" element={<TTC />} />
-        <Route path="/bib" element={<Bib />} />
-      </Routes>
-    </Router>
+    <ImagePreviewProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/effects" element={<Effects />} />
+          <Route path="/background" element={<Background />} />
+          <Route path="/ttc" element={<TTC />} />
+          <Route path="/bib" element={<Bib />} />
+        </Routes>
+      </Router>
+    </ImagePreviewProvider>
   );
 }

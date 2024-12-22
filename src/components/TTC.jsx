@@ -48,7 +48,7 @@ const TTC = () => {
           <div className="center">
             <div className="main">
               <ScrollReveal delay={300}>
-              <SectionLarge header="Medical Neutrality, & Rights of Medical Personnel" image="/assets/navy.jpg">
+              <SectionLarge header="Medical Neutrality, & Rights of Medical Personnel" image="/assets/navy.jpg" hasBackground={false}>
                 <InlineQuote author="1st Geneva Convention">
                   Article 1. Ambulances and military hospitals shall be
                   recognized as neutral, and as such, protected and respected
@@ -78,7 +78,7 @@ const TTC = () => {
               </ScrollReveal>
               
               <ScrollReveal delay={300}>
-              <Section header="Occupation and Medical Services, & Equipment Rights">
+              <Section header="Occupation and Medical Services, & Equipment Rights" image="/assets/de-guerre.jpg">
                 <InlineQuote author="1st Geneva Convention">
                   Art. 3. The persons designated in the preceding Article
                   may, even after enemy occupation, continue to discharge
@@ -111,7 +111,7 @@ const TTC = () => {
               </ScrollReveal>
 
               <ScrollReveal delay={300}>
-              <Section header="Civilian Protection">
+              <SectionLarge header="Civilian Protection" image="/assets/swiss.jpg" hasBackground={false}>
                 <InlineQuote author="1st Geneva Convention">
                   Art. 5. Inhabitants of the country who bring help to the
                   wounded shall be respected and shall remain free. Generals
@@ -129,11 +129,11 @@ const TTC = () => {
                   themselves and their home and exemption from billeting.
                   Combatants have the responsibility to obey this right.
                 </p>
-              </Section>
+              </SectionLarge>
               </ScrollReveal>
 
               <ScrollReveal delay={300}>
-              <Section header="Care for the Wounded">
+              <Section header="Care for the Wounded" image="/assets/1864-dc.jpg">
                 <InlineQuote author="1st Geneva Convention">
                   Art. 6. Wounded or sick combatants, to whatever nation they
                   may belong, shall be collected and cared for.
@@ -159,7 +159,7 @@ const TTC = () => {
               </ScrollReveal>
 
               <ScrollReveal delay={300}>
-              <Section header="Identification Standards" imagePosition="left" image = '/assets/rc-symbols.jpg'>
+              <SectionLarge header="Identification Standards" image="/assets/rc-symbols.jpg" hasBackground={false}>
                 <InlineQuote author="1st Geneva Convention">
                   Art. 7. A distinctive and uniform flag shall be adopted for
                   hospitals, ambulances and evacuation parties. It should in
@@ -173,11 +173,11 @@ const TTC = () => {
                   parties the responsibility to use an identification flag, a
                   national one, and the red cross symbol.
                 </p>
-              </Section>
+              </SectionLarge>
               </ScrollReveal>
 
               <ScrollReveal delay={300}>
-              <Section header="Convention Implementation">
+              <Section header="Convention Implementation" image="/assets/icrc-parliment.jpg">
                 <InlineQuote author="1st Geneva Convention">
                   Art. 8. The implementing of the present Convention shall be
                   arranged by the Commanders-in-Chief of the belligerent

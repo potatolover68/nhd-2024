@@ -48,7 +48,7 @@ const Background = () => {
               </Title>
 
               <ScrollReveal delay={300}>
-                <SectionLarge header="The Battle of Solferino" image="/assets/solferino-battle.jpg">
+                <SectionLarge header="The Battle of Solferino" image="/assets/solferino-battle.jpg" hasBackground={false}>
                   <InlineQuote author="History.com Editors">
                     In 1859, Genevan businessman Henry Dunant traveled to
                     Emperor Napoleon III's headquarters in northern Italy to
