@@ -33,7 +33,7 @@ export function Section({ header, children, image, hasBackground = true, imagePo
   };
 
   const headerStyle = {
-    fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+    fontSize: 'clamp(1.2rem, 5vw, 1.5rem)',
     fontWeight: '800',
     margin: '0',
     background: 'linear-gradient(135deg, #fff, rgba(255, 255, 255, 0.8))',
@@ -86,7 +86,7 @@ export function Section({ header, children, image, hasBackground = true, imagePo
   return (
     <section style={sectionStyle}>
       <div style={contentContainerStyle}>
-        <h2 style={headerStyle}>{header}</h2>
+        {header && <h2 style={headerStyle}>{header}</h2>}
         <div style={contentStyle}>{children}</div>
         {hasBackground && (
           <>

@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 export const nav = [
+  ["Home", "/"],
   ["Effects", "/effects"],
   ["Background", "/background"],
   ["Theme Topic Connections", "/ttc"],
-  ["Home", "/"],
   ["Bibliography", "/bib"],
 ];
 
@@ -24,12 +24,12 @@ export function Navbar(props) {
 
   const navStyle = {
     position: 'fixed',
-    top: '12px',
+    top: '1rem',
     left: '50%',
     transform: `translateX(-50%) translateY(${mounted ? '0' : '-20px'})`,
     width: '90%',
     maxWidth: '1000px',
-    padding: '0.5rem 1.5rem',
+    padding: '0.5rem 1.25rem',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -50,7 +50,7 @@ export function Navbar(props) {
 
   const linkContainerStyle = {
     display: 'flex',
-    gap: '1.5rem',
+    gap: '1rem',
     alignItems: 'center',
   };
 
@@ -59,7 +59,7 @@ export function Navbar(props) {
     textDecoration: 'none',
     fontSize: '0.9rem',
     fontWeight: 500,
-    padding: '0.35rem 0.75rem',
+    padding: '0.35rem 0.55rem',
     borderRadius: '6px',
     transition: 'all 0.2s ease-in-out',
     position: 'relative',
@@ -73,9 +73,15 @@ export function Navbar(props) {
   };
 
   const logoStyle = {
-    ...linkStyle,
-    fontSize: '1.2rem',
-    fontWeight: 700,
+    height: '2rem',
+    width: 'auto',
+    marginRight: '1rem',
+  };
+
+  const logoLinkStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    textDecoration: 'none',
     color: '#fff',
   };
 
@@ -102,6 +108,10 @@ export function Navbar(props) {
 
   return (
     <nav style={navStyle}>
+      <Link to="/" style={logoLinkStyle}>
+        <img src="/assets/dunce.svg" alt="Logo" style={logoStyle} />
+        <span style={{ fontSize: '1.25rem', fontWeight: 100, fontFamily: '"Nunito Sans", sans-serif' }}> NHD <span style={{ fontSize: '0.75rem'}}>24</span></span>
+      </Link>
       <div style={linkContainerStyle}>
         {props.pages.map((page) => (
           <LinkComponent
