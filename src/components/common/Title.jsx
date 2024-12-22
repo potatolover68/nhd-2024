@@ -1,7 +1,7 @@
 import React from 'react';
 import { FadeIn } from './ScrollAnimation';
 
-export const Title = ({ children, image }) => {
+export const Title = ({ children, image, subtitle }) => {
   const containerStyle = {
     position: 'relative',
     width: '100%',
@@ -22,7 +22,21 @@ export const Title = ({ children, image }) => {
     position: 'relative',
     fontFamily: '"Nunito Sans", sans-serif',
     letterSpacing: '0.05em',
+    borderBottom: subtitle ? 'none' : '1px solid rgba(255, 255, 255, 0.1)',
+  };
+
+  const subtitleStyle = {
+    fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+    fontWeight: '300',
+    textAlign: 'center',
+    color: 'rgba(255, 255, 255, 0.8)',
+    margin: '1rem auto 0',
+    padding: '0.5rem 3rem 0.75rem',
+    maxWidth: '800px',
+    fontFamily: '"Nunito Sans", sans-serif',
+    letterSpacing: '0.02em',
     borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+    lineHeight: 1.6,
   };
 
   const accentStyle = {
@@ -52,10 +66,18 @@ export const Title = ({ children, image }) => {
     <FadeIn>
       <div style={containerStyle}>
         {image && <img src={image} alt="" style={imageStyle} />}
-        <h1 style={titleStyle}>
-          {children}
-          <div style={accentStyle} />
-        </h1>
+        <div>
+          <h1 style={titleStyle}>
+            {children}
+            {!subtitle && <div style={accentStyle} />}
+          </h1>
+          {subtitle && (
+            <p style={subtitleStyle}>
+              {subtitle}
+              <div style={accentStyle} />
+            </p>
+          )}
+        </div>
       </div>
     </FadeIn>
   );

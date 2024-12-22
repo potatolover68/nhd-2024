@@ -26,7 +26,7 @@ export function Quote({ children, author, hasBackground = true }) {
 
   const authorStyle = {
     fontSize: 'clamp(1rem, 1.5vw, 1.25rem)',
-    color: '#E18091',
+    color: '#714043',
     textAlign: 'center',
     marginTop: '2rem',
     fontWeight: '500',
@@ -118,7 +118,8 @@ export function InlineQuote({ children, author }) {
   const authorStyle = {
     display: 'block',
     fontSize: '0.9rem',
-    opacity: 0.8,
+    color: '#e18093',
+    opacity: 1,
   };
 
   return (

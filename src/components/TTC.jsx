@@ -7,6 +7,7 @@ import { Carousel } from "./common/Carousel";
 import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
 import { Title } from "./common/Title";
+import { InlineImage } from './common/InlineImage';
 
 const bgStyle = {
   position: 'fixed',
@@ -39,21 +40,16 @@ const TTC = () => {
       <div style={appStyle} className="app-container">
         <div style={contentStyle}>
           <Navbar pages={nav} />
-          <Title image="/assets/geneva.jpg">
+          <Title subtitle="The First Geneva Convention created rights and gave
+                  responsibilities for the purpose of decreasing suffering
+                  during conflicts.">
             Theme Topic Connections to the Geneva Conventions
           </Title>
           <div className="center">
             <div className="main">
-              <Section header="Introduction to the Geneva Convention">
-                <p>
-                  The First Geneva Convention created rights and gave
-                  responsibilities for the purpose of decreasing suffering
-                  during conflicts.
-                </p>
-              </Section>
-
-              <Section header="Medical Neutrality, & Rights of Medical Personnel">
-                <InlineQuote>
+              <ScrollReveal delay={300}>
+              <SectionLarge header="Medical Neutrality, & Rights of Medical Personnel">
+                <InlineQuote author="1st Geneva Convention">
                   Article 1. Ambulances and military hospitals shall be
                   recognized as neutral, and as such, protected and respected
                   by the belligerents as long as they accommodate wounded and
@@ -66,7 +62,7 @@ const TTC = () => {
                   assisting those in bad condition and soldiers with the
                   responsibility of refraining from engaging with aid providers.
                 </p>
-                <InlineQuote>
+                <InlineQuote author="1st Geneva Convention">
                   Art. 2. Hospital and ambulance personnel, including the
                   quarter-master's staff, the medical, administrative and
                   transport services, and the chaplains, shall have the
@@ -78,10 +74,12 @@ const TTC = () => {
                   medical personnel and the responsibility of combatants to
                   uphold this right.
                 </p>
-              </Section>
-
-              <Section header="Occupation and Medical Services">
-                <InlineQuote>
+              </SectionLarge>
+              </ScrollReveal>
+              
+              <ScrollReveal delay={300}>
+              <Section header="Occupation and Medical Services, & Equipment Rights">
+                <InlineQuote author="1st Geneva Convention">
                   Art. 3. The persons designated in the preceding Article
                   may, even after enemy occupation, continue to discharge
                   their functions in the hospital or ambulance with which they
@@ -97,10 +95,7 @@ const TTC = () => {
                   to continue performing their job. The enemy has the
                   responsibility of leaving these personnel alone.
                 </p>
-              </Section>
-
-              <Section header="Equipment Rights">
-                <InlineQuote>
+                <InlineQuote author="1st Geneva Convention">
                   Art. 4. The material of military hospitals being subject to
                   the laws of war, the persons attached to such hospitals may
                   take with them, on withdrawing, only the articles which are
@@ -113,9 +108,11 @@ const TTC = () => {
                   ambulances have the right to keep their equipment.
                 </p>
               </Section>
+              </ScrollReveal>
 
+              <ScrollReveal delay={300}>
               <Section header="Civilian Protection">
-                <InlineQuote>
+                <InlineQuote author="1st Geneva Convention">
                   Art. 5. Inhabitants of the country who bring help to the
                   wounded shall be respected and shall remain free. Generals
                   of the belligerent Powers shall make it their duty to notify
@@ -133,9 +130,11 @@ const TTC = () => {
                   Combatants have the responsibility to obey this right.
                 </p>
               </Section>
+              </ScrollReveal>
 
+              <ScrollReveal delay={300}>
               <Section header="Care for the Wounded">
-                <InlineQuote>
+                <InlineQuote author="1st Geneva Convention">
                   Art. 6. Wounded or sick combatants, to whatever nation they
                   may belong, shall be collected and cared for.
                   Commanders-in-Chief may hand over immediately to the enemy
@@ -157,9 +156,11 @@ const TTC = () => {
                   rights.
                 </p>
               </Section>
+              </ScrollReveal>
 
-              <Section header="Identification Standards">
-                <InlineQuote>
+              <ScrollReveal delay={300}>
+              <Section header="Identification Standards" imagePosition="left" image = '/assets/rc-symbols.jpg'>
+                <InlineQuote author="1st Geneva Convention">
                   Art. 7. A distinctive and uniform flag shall be adopted for
                   hospitals, ambulances and evacuation parties. It should in
                   all circumstances be accompanied by the national flag. An
@@ -173,9 +174,11 @@ const TTC = () => {
                   national one, and the red cross symbol.
                 </p>
               </Section>
+              </ScrollReveal>
 
+              <ScrollReveal delay={300}>
               <Section header="Convention Implementation">
-                <InlineQuote>
+                <InlineQuote author="1st Geneva Convention">
                   Art. 8. The implementing of the present Convention shall be
                   arranged by the Commanders-in-Chief of the belligerent
                   armies following the instructions of their respective
@@ -189,6 +192,7 @@ const TTC = () => {
                   theme.
                 </p>
               </Section>
+              </ScrollReveal>
             </div>
           </div>
         </div>

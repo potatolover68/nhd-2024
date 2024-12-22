@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export function Section({ header, children, image, hasBackground = true, imagePosition = 'right', hasImage = true }) {
   const sectionStyle = {
@@ -104,8 +104,75 @@ export function Section({ header, children, image, hasBackground = true, imagePo
   );
 }
 
-export function SectionLarge(props) {
-  return <Section {...props} />;
+export function SectionLarge({ header, children, image, hasBackground = true, hasImage = true }) {
+  const sectionStyle = {
+    position: 'relative',
+    display: 'grid',
+
+    gap: '2rem',
+    padding: '3rem',
+    margin: '0 auto 4rem',
+    background: hasBackground ? 'rgba(31, 31, 35, 0.4)' : 'transparent',
+    backdropFilter: hasBackground ? 'blur(20px)' : 'none',
+    WebkitBackdropFilter: hasBackground ? 'blur(20px)' : 'none',
+    borderRadius: '1.5rem',
+    boxShadow: hasBackground ? '0 25px 50px -12px rgba(0, 0, 0, 0.3)' : 'none',
+    overflow: 'hidden',
+    color: '#fff',
+    '@media (max-width: 768px)': {
+      gridTemplateColumns: '1fr',
+      padding: '2rem',
+    },
+  };
+
+  const imageContainerStyle = image ? {
+    width: '100%',
+    height: '400px',
+    position: 'relative',
+    overflow: 'hidden',
+    borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+  } : {};
+
+  const imageStyle = {
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+  };
+
+  const contentContainerStyle = {
+    padding: '2rem',
+  };
+
+  const headerStyle = {
+    fontSize: 'clamp(1.2rem, 5vw, 1.5rem)',
+    fontWeight: '800',
+    margin: '0',
+    background: 'linear-gradient(135deg, #fff, rgba(255, 255, 255, 0.8))',
+    backgroundClip: 'text',
+    WebkitBackgroundClip: 'text',
+    color: 'transparent',
+    marginBottom: '1.5rem',
+  };
+
+  const contentStyle = {
+    color: '#fff',
+    fontSize: '1rem',
+    lineHeight: 1.7,
+  };
+
+  return (
+    <section style={sectionStyle}>
+      {image && (
+        <div style={imageContainerStyle}>
+          <img src={image} alt="" style={imageStyle} />
+        </div>
+      )}
+      <div style={contentContainerStyle}>
+        {header && <h2 style={headerStyle}>{header}</h2>}
+        <div style={contentStyle}>{children}</div>
+      </div>
+    </section>
+  );
 }
 
 export function SectionNoImage({ header, children, hasBackground = true }) {
@@ -132,7 +199,7 @@ export function SectionNoImage({ header, children, hasBackground = true }) {
   };
 
   const headerStyle = {
-    fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+    fontSize: 'clamp(1.2rem, 5vw, 1.5rem)',
     fontWeight: '800',
     margin: '0',
     background: 'linear-gradient(135deg, #fff, rgba(255, 255, 255, 0.8))',
