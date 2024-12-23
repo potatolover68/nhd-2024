@@ -8,8 +8,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  color: inherit;
+}
 
-html, #root {
+html,
+#root {
   scrollbar-width: none;
   -ms-overflow-style: none;
   width: 100%;
@@ -78,9 +82,16 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: 
-    radial-gradient(circle at 20% 20%, rgba(255, 182, 193, 0.15) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(173, 216, 230, 0.15) 0%, transparent 50%);
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 182, 193, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(173, 216, 230, 0.15) 0%,
+      transparent 50%
+    );
   filter: blur(40px);
   z-index: -1;
   pointer-events: none;
@@ -93,9 +104,16 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: 
-    radial-gradient(circle at 70% 30%, rgba(255, 215, 0, 0.15) 0%, transparent 50%),
-    radial-gradient(circle at 30% 70%, rgba(147, 112, 219, 0.15) 0%, transparent 50%);
+  background: radial-gradient(
+      circle at 70% 30%,
+      rgba(255, 215, 0, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 30% 70%,
+      rgba(147, 112, 219, 0.15) 0%,
+      transparent 50%
+    );
   filter: blur(40px);
   z-index: -1;
   pointer-events: none;

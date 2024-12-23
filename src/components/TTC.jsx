@@ -8,6 +8,7 @@ import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
 import { Title } from "./common/Title";
 import { InlineImage } from './common/InlineImage';
+import Credits from "./common/Credits";
 
 const bgStyle = {
   position: 'fixed',
@@ -195,6 +196,7 @@ const TTC = () => {
               </ScrollReveal>
             </div>
           </div>
+          <Credits />
         </div>
       </div>
     </>

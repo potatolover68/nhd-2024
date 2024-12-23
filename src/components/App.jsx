@@ -6,6 +6,7 @@ import { Quote } from "./common/Quote";
 import { Carousel } from "./common/Carousel";
 import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
+import Credits from "./common/Credits";
 
 const bgStyle = {
   position: "fixed",
@@ -84,6 +85,7 @@ const App = () => {
               </ScrollReveal>
             </div>
           </div>
+          <Credits />
         </div>
       </div>
     </>

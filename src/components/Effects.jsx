@@ -5,6 +5,7 @@ import { ItemEF } from "./common/ItemEF";
 import { Navbar, nav } from "./common/Nav";
 import { InlineQuote } from "./common/Quote";
 import { InlineImage } from "./common/InlineImage";
+import Credits from "./common/Credits";
 
 const Effects = () => {
   const bgStyle = {
@@ -194,6 +195,7 @@ const Effects = () => {
             </ItemEF>
           </Carousel>
         </div>
+        <Credits />
       </div>
     </>
   );

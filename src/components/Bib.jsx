@@ -3,6 +3,7 @@ import { Navbar, nav } from "./common/Nav";
 import { Title } from "./common/Title";
 import { Cite } from "./common/Cite";
 import citations from '../data/bibliography.json';
+import Credits from "./common/Credits";
 
 const bgStyle = {
   position: 'fixed',
@@ -84,6 +85,7 @@ export default function Bib() {
               ))}
             </div>
           </div>
+          <Credits />
         </div>
       </div>
     </>
