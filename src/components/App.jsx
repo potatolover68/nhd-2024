@@ -1,11 +1,10 @@
-import React from "react";
 import "./App.css";
 import { Hero } from "./common/Hero";
-import { Section, SectionLarge } from "./common/Section";
+import { SectionLarge } from "./common/Section";
 import { Quote } from "./common/Quote";
-import { Carousel } from "./common/Carousel";
 import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
+import { Title } from "./common/Title";
 import Credits from "./common/Credits";
 
 const bgStyle = {
@@ -39,16 +38,21 @@ const App = () => {
       <div style={appStyle} className="app-container">
         <div style={contentStyle}>
           <Navbar pages={nav} />
-          <Hero image="/assets/geneva.jpg">2025 NHD</Hero>
+          <Hero image="/assets/geneva.jpg">2024 NHD</Hero>
+          <div className="scroll-indicator">
+            <span>scroll down</span>
+          </div>
           <div className="center">
             <div className="main">
-              
               <FadeIn delay={200}>
                 <Quote author="Henry Dunant">
-                Suffering is universal, and the Red Cross strives to give assistance and protection to all those who suffer, wherever they may be.
+                  Suffering is universal, and the Red Cross strives to give
+                  assistance and protection to all those who suffer, wherever
+                  they may be.
                 </Quote>
               </FadeIn>
               <ScrollReveal>
+                <Title>2024 NHD: Rights, and Responsibilities</Title>
                 <SectionLarge header="Thesis" image="/assets/dunant.webp">
                   In 1859, Genevan businessman Henry Dunant witnessed the Battle
                   of Solferino on a trip to secure water and land rights in
