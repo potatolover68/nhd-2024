@@ -44,32 +44,72 @@ const Background = () => {
           <div className="center">
             <div className="main">
               <SpacingBlock height="6rem" />
-              <Title subtitle="The story of how one man's experience at the Battle of Solferino led to the creation of the Geneva Convention and the International Red Cross.">
+              <Title subtitle="The story of how wartime humanitarian laws evolved from limited treaties to the first widespread international agreement.">
                 Background
               </Title>
 
               <ScrollReveal delay={300}>
-                <SectionLarge header="The Battle of Solferino" image="/assets/solferino-battle.jpg" hasBackground={false}>
-                  <InlineQuote author="History.com Editors">
-                    In 1859, Genevan businessman Henry Dunant traveled to
-                    Emperor Napoleon III's headquarters in northern Italy to
-                    seek land rights for a business venture.
+                <SectionLarge
+                  header="Early Humanitarian Laws"
+                  image="/assets/de-guerre.jpg"
+                  hasBackground={false}
+                >
+                  <p>
+                    Before the First Geneva Convention, there were some wartime
+                    humanitarian laws, but they were not widely agreed to.
+                  </p>
+                  <InlineQuote>
+                    The Governments of Spain and Colombia wish to express to the
+                    world the horror with which they view the war of
+                    extermination that has devastated these territories until
+                    now, turning them into a theatre of blood; and wishing to
+                    take advantage of the first moment of calm that has arisen
+                    to regularize the war that exists between both
+                    Governments…they have agreed to appoint Commissioners to
+                    stipulate and establish a treaty for the regularization of
+                    war.
                   </InlineQuote>
                   <p>
-                    On his journey, he witnessed the battlefield of the Battle of
-                    Solferino where nearly 40,000 perished. Even though by the
-                    time he arrived the fight had concluded, he was still
-                    horrified by the suffering.
+                    This is an excerpt from the 1820 treaty for the
+                    regularization of war. While these agreements existed, the
+                    participating parties were few, in this case only being 2.
+                  </p>
+                  <p>
+                    The rarity of these regulations meant that many atrocities
+                    and much unnecessary suffering took place.
                   </p>
                 </SectionLarge>
               </ScrollReveal>
 
               <ScrollReveal delay={300}>
-                <Section header="Henry Dunant's Response" image="/assets/dunant.webp">
-                  <InlineQuote author="History.com Editors">
-                    The horrific suffering Dunant saw impacted him so greatly
-                    he wrote a first-hand account in 1862 called 'A Memory of
-                    Solferino'. But he didn't just write about what he'd
+                <Section
+                  header="The Battle of Solferino"
+                  image="/assets/solferino-battle.jpg"
+                >
+                  <InlineQuote>
+                    In 1859, Genevan businessman Henry Dunant traveled to
+                    Emperor Napoleon III's headquarters in northern Italy to
+                    seek land rights for a business venture.
+                  </InlineQuote>
+                  <p>
+                    On his journey, he witnessed the battlefield of the Battle
+                    of Solferino where nearly 40,000 perished. Even though by
+                    the time he arrived the fight had concluded, he was still
+                    horrified by the suffering.
+                  </p>
+                </Section>
+              </ScrollReveal>
+
+              <ScrollReveal delay={300}>
+                <SectionLarge
+                  header="Henry Dunant's Response"
+                  image="/assets/dunant.webp"
+                  hasBackground={false}
+                >
+                  <InlineQuote>
+                    The horrific suffering Dunant saw impacted him so greatly he
+                    wrote a first-hand account in 1862 called A Memory of
+                    Solferino. But he didn't just write about what he'd
                     observed, he also proposed a solution: All nations come
                     together to create trained, volunteer relief groups to treat
                     battlefield wounded and offer humanitarian assistance to
@@ -83,19 +123,22 @@ const Background = () => {
                     medical units to Geneva for negotiations about a treaty to
                     reduce wartime suffering.
                   </p>
-                </Section>
+                </SectionLarge>
               </ScrollReveal>
 
               <ScrollReveal delay={300}>
-                <SectionLarge header="The First Geneva Convention" image="/assets/convention.jpg" hasBackground={false}>
-                  <InlineQuote author="International Committee of the Red Cross">
-                    The conference lasted from 8-22 August 1864.
+                <Section
+                  header="The First Geneva Convention"
+                  image="/assets/convention.jpg"
+                >
+                  <InlineQuote>
+                    The conference…lasted from 8-22 August 1864.
                   </InlineQuote>
                   <p>
                     This meeting and the treaty signed by 12 nations at the end
                     were known as the First Geneva Convention.
                   </p>
-                  <InlineQuote author="Malcolm Shaw, for Encyclopædia Britannica">
+                  <InlineQuote>
                     This convention provided for (1) the immunity from capture
                     and destruction of all establishments for the treatment of
                     wounded and sick soldiers and their personnel, (2) the
@@ -104,19 +147,26 @@ const Background = () => {
                     (4) the recognition of the Red Cross symbol as a means of
                     identifying persons and equipment covered by the agreement.
                   </InlineQuote>
-                </SectionLarge>
+                  <p>
+                    The First Geneva Convention was the earliest widespread
+                    humanitarian agreement for warfare.
+                  </p>
+                </Section>
               </ScrollReveal>
 
               <ScrollReveal delay={300}>
-                <Section header="Dunant's Legacy" image="/assets/rc-symbols.jpg">
+                <SectionLarge
+                  header="Dunant's Legacy"
+                  image="/assets/gv.JPG"
+                  hasBackground={false}
+                >
                   <p>
-                    Despite his contributions, Henry Dunant spent most of the rest
-                    of his life in poverty as he neglected his business affairs.
-                    He continued to raise awareness about humanitarian issues.
-                    His work led to the establishment of the Red Cross and laid
-                    the foundation for modern humanitarian law.
+                    Despite his contributions, Henry Dunant spent most of the
+                    rest of his life in poverty as he neglected his business
+                    affairs. He continued to raise awareness about humanitarian
+                    issues.
                   </p>
-                </Section>
+                </SectionLarge>
               </ScrollReveal>
             </div>
           </div>

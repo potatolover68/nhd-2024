@@ -131,7 +131,7 @@ const Effects = () => {
                 injured.
               </p>
             </ItemEF>
-            <ItemEF image="/assets/icrc-parliment-6-7-1929.jpg">
+            <ItemEF image="/assets/icrc-parliment.jpg">
               <h1 style={headingStyle}>Evolution After World War I</h1>
               <p style={paragraphStyle}>
                 After World War I, it was clear the 1906 Convention and The
@@ -209,7 +209,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/wounded-soldiers.jpg">
+            <ItemEF image="/assets/solferino.jpg">
               <h1 style={headingStyle}>Protection of Wounded and Sick</h1>
               <InlineQuote>
                 "Article 10…All the wounded, sick and shipwrecked, to whichever
@@ -222,7 +222,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/non-international-conflict.jpg">
+            <ItemEF image="/assets/de-guerre.jpg">
               <h1 style={headingStyle}>Non-International Armed Conflicts</h1>
               <InlineQuote>
                 "The only provision applicable to non-international armed
@@ -242,7 +242,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/shipwrecked.jpg">
+            <ItemEF image="/assets/navy.jpg">
               <h1 style={headingStyle}>Protection of Shipwrecked</h1>
               <InlineQuote>
                 "Article 7…All the wounded, sick and shipwrecked, whether or not
@@ -256,7 +256,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/red-crystal.jpg">
+            <ItemEF image="/assets/rc-symbols.jpg">
               <h1 style={headingStyle}>The Red Crystal</h1>
               <InlineQuote>
                 "Since the nineteenth century the red cross and red crescent
@@ -276,7 +276,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/red-cross-workers.jpg">
+            <ItemEF image="/assets/gv.JPG">
               <h1 style={headingStyle}>Use of Emblems</h1>
               <InlineQuote>
                 "Article 4…The International Committee of the Red Cross and the
@@ -292,7 +292,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/war-crimes-trial.jpg">
+            <ItemEF image="/assets/blaskic.webp">
               <h1 style={headingStyle}>Prosecution of Violations</h1>
               <p style={paragraphStyle}>
                 When the rights and responsibilities of the Geneva Conventions
@@ -317,7 +317,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/rwanda-genocide.jpg">
+            <ItemEF image="/assets/swiss.jpg">
               <h1 style={headingStyle}>Rwanda Genocide Case</h1>
               <InlineQuote>
                 "The defendant [Fulgence Niyonteze] was the burgomaster of a
@@ -333,7 +333,7 @@ const Effects = () => {
                 Convention and article 4 of Additional Protocol II.
               </p>
             </ItemEF>
-            <ItemEF image="/assets/geneva.jpg">
+            <ItemEF image="/assets/2.jpg">
               <h1 style={headingStyle}>Protection of Civilians</h1>
               <div style={quoteWrapperStyle}>
                 <InlineQuote>
