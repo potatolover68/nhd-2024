@@ -31,6 +31,30 @@ const contentStyle = {
   minHeight: "100vh",
 };
 
+const projectInfoStyle = {
+  textAlign: "center",
+  padding: "2rem",
+  background: "rgba(0, 0, 0, 0.5)",
+  borderRadius: "10px",
+  backdropFilter: "blur(10px)",
+  margin: "2rem auto",
+  maxWidth: "800px",
+};
+
+const titleStyle = {
+  fontSize: "2.5rem",
+  marginBottom: "1.5rem",
+  color: "#fff",
+  textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+};
+
+const detailStyle = {
+  fontSize: "1.2rem",
+  marginBottom: "1rem",
+  color: "#f0f0f0",
+  lineHeight: "1.8",
+};
+
 const App = () => {
   return (
     <>
@@ -52,17 +76,22 @@ const App = () => {
                 </Quote>
               </FadeIn>
               <FadeIn delay={400}>
-                <Section>
-                  <center>
-                    2025 NHD
-                    <br />
-                    TOPIC: THE FIRST GENEVA CONVENTION
-                  </center>
-                </Section>
+                <div style={projectInfoStyle}>
+                  <h1 style={titleStyle}>2025 NHD</h1>
+                  <div style={detailStyle}>
+                    <strong>TOPIC:</strong> THE FIRST GENEVA CONVENTION
+                  </div>
+                  <div style={detailStyle}>
+                    <strong>THEME:</strong> RIGHTS AND RESPONSIBILITIES
+                  </div>
+                  <div style={detailStyle}>
+                    <strong>WORD COUNT:</strong> 1,375
+                  </div>
+                  <Credits />
+                </div>
               </FadeIn>
             </div>
           </div>
-          <Credits />
         </div>
       </div>
     </>
