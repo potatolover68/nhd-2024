@@ -118,7 +118,7 @@ export function Navbar(props) {
           }}
         >
           {" "}
-          NHD <span style={{ fontSize: "0.75rem" }}>24</span>
+          NHD <span style={{ fontSize: "0.75rem" }}>25</span>
         </span>
       </Link>
       <div style={linkContainerStyle}>

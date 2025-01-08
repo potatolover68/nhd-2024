@@ -34,9 +34,7 @@ const contentStyle = {
 const projectInfoStyle = {
   textAlign: "center",
   padding: "2rem",
-  background: "rgba(0, 0, 0, 0.5)",
   borderRadius: "10px",
-  backdropFilter: "blur(10px)",
   margin: "2rem auto",
   maxWidth: "800px",
 };
