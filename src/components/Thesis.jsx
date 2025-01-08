@@ -34,7 +34,7 @@ const contentStyle = {
   minHeight: "100vh",
 };
 
-const Background = () => {
+const Thesis = () => {
   return (
     <>
       <div style={bgStyle} />
@@ -44,128 +44,41 @@ const Background = () => {
           <div className="center">
             <div className="main">
               <SpacingBlock height="6rem" />
-              <Title subtitle="The story of how wartime humanitarian laws evolved from limited treaties to the first widespread international agreement.">
-                Background
-              </Title>
-
-              <ScrollReveal delay={300}>
-                <SectionLarge
-                  header="Early Humanitarian Laws"
-                  image="/assets/de-guerre.jpg"
-                  hasBackground={false}
-                >
-                  <p>
-                    Before the First Geneva Convention, there were some wartime
-                    humanitarian laws, but they were not widely agreed to.
-                  </p>
-                  <InlineQuote>
-                    The Governments of Spain and Colombia wish to express to the
-                    world the horror with which they view the war of
-                    extermination that has devastated these territories until
-                    now, turning them into a theatre of blood; and wishing to
-                    take advantage of the first moment of calm that has arisen
-                    to regularize the war that exists between both
-                    Governments…they have agreed to appoint Commissioners to
-                    stipulate and establish a treaty for the regularization of
-                    war.
-                  </InlineQuote>
-                  <p>
-                    This is an excerpt from the 1820 treaty for the
-                    regularization of war. While these agreements existed, the
-                    participating parties were few, in this case only being 2.
-                  </p>
-                  <p>
-                    The rarity of these regulations meant that many atrocities
-                    and much unnecessary suffering took place.
-                  </p>
-                </SectionLarge>
-              </ScrollReveal>
-
-              <ScrollReveal delay={300}>
-                <Section
-                  header="The Battle of Solferino"
-                  image="/assets/solferino-battle.jpg"
-                >
-                  <InlineQuote>
-                    In 1859, Genevan businessman Henry Dunant traveled to
-                    Emperor Napoleon III's headquarters in northern Italy to
-                    seek land rights for a business venture.
-                  </InlineQuote>
-                  <p>
-                    On his journey, he witnessed the battlefield of the Battle
-                    of Solferino where nearly 40,000 perished. Even though by
-                    the time he arrived the fight had concluded, he was still
-                    horrified by the suffering.
-                  </p>
-                </Section>
-              </ScrollReveal>
-
-              <ScrollReveal delay={300}>
-                <SectionLarge
-                  header="Henry Dunant's Response"
-                  image="/assets/dunant.webp"
-                  hasBackground={false}
-                >
-                  <InlineQuote>
-                    The horrific suffering Dunant saw impacted him so greatly he
-                    wrote a first-hand account in 1862 called A Memory of
-                    Solferino. But he didn't just write about what he'd
-                    observed, he also proposed a solution: All nations come
-                    together to create trained, volunteer relief groups to treat
-                    battlefield wounded and offer humanitarian assistance to
-                    those affected by war.
-                  </InlineQuote>
-                  <p>
-                    He also helped by organizing medical aid for the wounded and
-                    forming the International Committee for the Relief of the
-                    Wounded, now known as the Red Cross, in 1863. All of these
-                    actions inspired 16 countries to send delegates and military
-                    medical units to Geneva for negotiations about a treaty to
-                    reduce wartime suffering.
-                  </p>
-                </SectionLarge>
-              </ScrollReveal>
-
-              <ScrollReveal delay={300}>
-                <Section
-                  header="The First Geneva Convention"
-                  image="/assets/convention.jpg"
-                >
-                  <InlineQuote>
-                    The conference…lasted from 8-22 August 1864.
-                  </InlineQuote>
-                  <p>
-                    This meeting and the treaty signed by 12 nations at the end
-                    were known as the First Geneva Convention.
-                  </p>
-                  <InlineQuote>
-                    This convention provided for (1) the immunity from capture
-                    and destruction of all establishments for the treatment of
-                    wounded and sick soldiers and their personnel, (2) the
-                    impartial reception and treatment of all combatants, (3) the
-                    protection of civilians providing aid to the wounded, and
-                    (4) the recognition of the Red Cross symbol as a means of
-                    identifying persons and equipment covered by the agreement.
-                  </InlineQuote>
-                  <p>
-                    The First Geneva Convention was the earliest widespread
-                    humanitarian agreement for warfare.
-                  </p>
-                </Section>
-              </ScrollReveal>
-
-              <ScrollReveal delay={300}>
-                <SectionLarge
-                  header="Dunant's Legacy"
-                  image="/assets/gv.JPG"
-                  hasBackground={false}
-                >
-                  <p>
-                    Despite his contributions, Henry Dunant spent most of the
-                    rest of his life in poverty as he neglected his business
-                    affairs. He continued to raise awareness about humanitarian
-                    issues.
-                  </p>
+              <Title>Thesis</Title>
+              <ScrollReveal>
+                <Title>2024 NHD: Rights, and Responsibilities</Title>
+                <SectionLarge header="Thesis" image="/assets/dunant.webp">
+                  In 1859, Genevan businessman Henry Dunant witnessed the Battle
+                  of Solferino on a trip to secure water and land rights in
+                  Algeria. Horrified by the violation of principles he viewed as
+                  unalienable, notably the rights and duties of belligerents to
+                  receive and provide medical assistance on the battlefield, he
+                  responded by writing A Memory of Solferino (1862) to record
+                  his experience and propose solutions. Despite his effort to
+                  intervene, the rights of prisoners and injured soldiers was
+                  not a given historically and often considered by European
+                  nations to be suspended during periods of armed conflict. In
+                  other words, rights of soldiers were entirely dependent on the
+                  country to provide these standards and often could be
+                  abandoned in the name of military or political necessity, as
+                  Dunant saw through the example of 40,000 casualties. In this
+                  context, how did Dunant create new bodies that could finally
+                  hold governments, military officers, and relief organizations
+                  responsible? After organizing aid and forming the Red Cross
+                  (1863), Dunant’s writings and the public outrage that ensued
+                  inspired representatives to convene and discuss methods to
+                  decrease suffering in areas of conflict. This assembly, known
+                  as the First Geneva Convention (1864), led to the creation of
+                  the earliest version of the Geneva Convention, an agreement
+                  signed by 12 nations that established an international
+                  humanitarian law for the first time. In the context of a new
+                  and decentralized understanding of humanitarian ethics,
+                  brought to the fore by public opinion, the effort to grant
+                  countries the responsibility to uphold de juris rights could
+                  finally succeed. The document not only started protecting
+                  wartime individuals immediately upon going into effect, but
+                  also provided a basis for further changes and protections to
+                  prevent future atrocities.
                 </SectionLarge>
               </ScrollReveal>
             </div>
@@ -177,4 +90,4 @@ const Background = () => {
   );
 };
 
-export default Background;
+export default Thesis;
