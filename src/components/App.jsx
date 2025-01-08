@@ -1,6 +1,6 @@
 import "./App.css";
 import { Hero } from "./common/Hero";
-import { SectionLarge } from "./common/Section";
+import { Section } from "./common/Section";
 import { Quote } from "./common/Quote";
 import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
@@ -50,6 +50,15 @@ const App = () => {
                   assistance and protection to all those who suffer, wherever
                   they may be.
                 </Quote>
+              </FadeIn>
+              <FadeIn delay={400}>
+                <Section>
+                  <center>
+                    2025 NHD
+                    <br />
+                    TOPIC: THE FIRST GENEVA CONVENTION
+                  </center>
+                </Section>
               </FadeIn>
             </div>
           </div>
