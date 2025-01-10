@@ -1,10 +1,8 @@
 import "./App.css";
 import { Hero } from "./common/Hero";
-import { Section } from "./common/Section";
 import { Quote } from "./common/Quote";
 import { Navbar, nav } from "./common/Nav";
-import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
-import { Title } from "./common/Title";
+import { FadeIn } from "./common/ScrollAnimation";
 import Credits from "./common/Credits";
 
 const bgStyle = {
@@ -84,6 +82,15 @@ const App = () => {
                   </div>
                   <div style={detailStyle}>
                     <strong>WORD COUNT:</strong> 1,375
+                  </div>
+                  <div style={detailStyle}>
+                    <strong>DIVISION:</strong> JUNIOR
+                  </div>
+                  <div style={detailStyle}>
+                    <strong>MEMBERS:</strong> HANSONG ZHU(8th) & JUSTIN SUN(8th)
+                  </div>
+                  <div style={detailStyle}>
+                    <strong>PROJECT TYPE:</strong> WEBSITE
                   </div>
                   <Credits />
                 </div>
