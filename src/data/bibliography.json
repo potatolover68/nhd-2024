@@ -214,5 +214,45 @@
     "url": "https://www.britannica.com/biography/Henri-Dunant",
     "type": "Secondary Sources - Websites",
     "annotation": "This source is a biography of Henry Dunant’s life. We will use this source in background as he was a major part of what led up to the first Geneva Convention, our topic. This source taught us about him, his part in the creation of the 1864 Geneva Convention, and other noble actions of his."
+  },
+  {
+    "title": "World War II: The Horror of War in Pictures",
+    "year": "2024",
+    "source": "Britannica",
+    "url": "https://www.britannica.com/event/World-War-II-The-horror-of-war-in-pictures-2147312",
+    "type": "Secondary Sources - Websites",
+    "annotation": "This source provides visual documentation of the horrors of World War II, helping to illustrate the importance of the Geneva Convention's protections for civilians and medical personnel during wartime. The images demonstrate the real-world impact and necessity of international humanitarian law."
+  },
+  {
+    "title": "World War II",
+    "year": "2025",
+    "source": "Encyclopædia Britannica",
+    "publisher": "Encyclopædia Britannica",
+    "url": "https://www.britannica.com/event/World-War-II-The-horror-of-war-in-pictures-2147312#/media/1/2147312/240476",
+    "type": "Secondary Sources - Images",
+    "mediaType": "Image",
+    "accessDate": "January 9, 2025"
+  },
+  {
+    "title": "Geneva Convention",
+    "year": "2024",
+    "source": "HISTORY",
+    "publisher": "A&E Television Networks",
+    "url": "https://www.history.com/topics/world-war-ii/geneva-convention",
+    "type": "Secondary Sources - Images",
+    "mediaType": "Image",
+    "author": "History.com Editors",
+    "lastUpdated": "August 1, 2024",
+    "originalPublished": "November 17, 2017",
+    "accessDate": "January 9, 2025"
+  },
+  {
+    "title": "The importance of the Red Cross emblem",
+    "year": "2025",
+    "source": "British Red Cross",
+    "url": "https://www.redcross.org.uk/stories/our-movement/our-history/the-importance-of-the-red-cross-emblem",
+    "type": "Secondary Sources - Images",
+    "mediaType": "Image",
+    "accessDate": "January 9, 2025"
   }
 ]

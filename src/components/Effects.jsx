@@ -160,7 +160,7 @@ const Effects = () => {
                 responsible for obeying these rights.
               </div>
             </ItemEF>
-            <ItemEF image="/assets/civilians-wwii.jpg">
+            <ItemEF image="/assets/wwii-civilians.webp">
               <h1 style={headingStyle}>Protection of Civilians</h1>
               <InlineQuote>
                 "The Geneva Conventions which were adopted before 1949 were
@@ -187,7 +187,7 @@ const Effects = () => {
               </p>
             </ItemEF>
 
-            <ItemEF image="/assets/additional-protocols.jpg">
+            <ItemEF image="/assets/ap.jpg">
               <h1 style={headingStyle}>Additional Protocols</h1>
               <InlineQuote>
                 "In the decades following World War II, the large number of
@@ -351,7 +351,7 @@ const Effects = () => {
                 are not injured by the civilian population.
               </p>
             </ItemEF>
-            <ItemEF image="/assets/rc-symbols.jpg">
+            <ItemEF image="/assets/rc-symbols.webp">
               <h1 style={headingStyle}>Modern Developments</h1>
               <div style={quoteWrapperStyle}>
                 <InlineQuote>
