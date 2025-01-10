@@ -40,7 +40,8 @@ jobs:
       run: yarn build
     - name: Deploy
       run: yarn run deploy
-    
+    - name: Git Login
+      run: git config --global user.email "you@example.com" && git config --global user.name "Your Name"
     - name: Setup Pages
       uses: actions/configure-pages@v4
     
