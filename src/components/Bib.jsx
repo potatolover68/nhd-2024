@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, nav } from "./common/Nav";
 import { Title } from "./common/Title";
 import { Cite } from "./common/Cite";
+import { ScrollToTop } from "./common/ScrollToTop";
 import citations from '../data/bibliography.json';
 import Credits from "./common/Credits";
 
@@ -56,38 +57,40 @@ export default function Bib() {
   }, {});
 
   return (
-    <>
-      <div style={bgStyle} />
-      <div style={appStyle} className="app-container">
-        <div style={contentStyle}>
-          <Navbar pages={nav} />
-          <Title>Bibliography</Title>
-          <div className="center">
-            <div style={mainStyle}>
-              {Object.entries(citationsByType).map(([type, typeCitations], index) => (
-                <div key={type}>
-                  <h2 style={{
-                    ...sectionHeaderStyle,
-                    marginTop: index === 0 ? '0.75rem' : '2rem'
-                  }}>{type}</h2>
-                  {typeCitations.map((citation, index) => (
-                    <Cite
-                      key={index}
-                      title={citation.title}
-                      year={citation.year}
-                      source={citation.source}
-                      url={citation.url}
-                    >
-                      {citation.annotation}
-                    </Cite>
-                  ))}
-                </div>
-              ))}
+    <ScrollToTop>
+      <>
+        <div style={bgStyle} />
+        <div style={appStyle} className="app-container">
+          <div style={contentStyle}>
+            <Navbar pages={nav} />
+            <Title>Bibliography</Title>
+            <div className="center">
+              <div style={mainStyle}>
+                {Object.entries(citationsByType).map(([type, typeCitations], index) => (
+                  <div key={type}>
+                    <h2 style={{
+                      ...sectionHeaderStyle,
+                      marginTop: index === 0 ? '0.75rem' : '2rem'
+                    }}>{type}</h2>
+                    {typeCitations.map((citation, index) => (
+                      <Cite
+                        key={index}
+                        title={citation.title}
+                        year={citation.year}
+                        source={citation.source}
+                        url={citation.url}
+                      >
+                        {citation.annotation}
+                      </Cite>
+                    ))}
+                  </div>
+                ))}
+              </div>
             </div>
+            <Credits />
           </div>
-          <Credits />
         </div>
-      </div>
-    </>
+      </>
+    </ScrollToTop>
   );
 }

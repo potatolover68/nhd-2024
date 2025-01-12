@@ -4,6 +4,9 @@ import { Quote } from "./common/Quote";
 import { Navbar, nav } from "./common/Nav";
 import { FadeIn } from "./common/ScrollAnimation";
 import Credits from "./common/Credits";
+import { ScrollToTop } from "./common/ScrollToTop";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const bgStyle = {
   position: "fixed",
@@ -52,54 +55,58 @@ const detailStyle = {
 };
 
 const App = () => {
+  const { pathname } = useLocation();
+
   return (
-    <>
-      <div style={bgStyle} />
-      <div style={appStyle} className="app-container">
-        <div style={contentStyle}>
-          <Navbar pages={nav} />
-          <Hero image="/assets/geneva.jpg">2025 NHD</Hero>
-          <div className="scroll-indicator">
-            <span>scroll down</span>
-          </div>
-          <div className="center">
-            <div className="main">
-              <FadeIn delay={200}>
-                <Quote author="Henry Dunant">
-                  Suffering is universal, and the Red Cross strives to give
-                  assistance and protection to all those who suffer, wherever
-                  they may be.
-                </Quote>
-              </FadeIn>
-              <FadeIn delay={400}>
-                <div style={projectInfoStyle}>
-                  <h1 style={titleStyle}>2025 NHD</h1>
-                  <div style={detailStyle}>
-                    <strong>TOPIC:</strong> THE FIRST GENEVA CONVENTION
+    <ScrollToTop>
+      <>
+        <div style={bgStyle} />
+        <div style={appStyle} className="app-container">
+          <div style={contentStyle}>
+            <Navbar pages={nav} />
+            <Hero image="/assets/geneva.jpg">2025 NHD</Hero>
+            <div className="scroll-indicator">
+              <span>scroll down</span>
+            </div>
+            <div className="center">
+              <div className="main">
+                <FadeIn delay={200}>
+                  <Quote author="Henry Dunant">
+                    Suffering is universal, and the Red Cross strives to give
+                    assistance and protection to all those who suffer, wherever
+                    they may be.
+                  </Quote>
+                </FadeIn>
+                <FadeIn delay={400}>
+                  <div style={projectInfoStyle}>
+                    <h1 style={titleStyle}>2025 NHD</h1>
+                    <div style={detailStyle}>
+                      <strong>TOPIC:</strong> THE FIRST GENEVA CONVENTION
+                    </div>
+                    <div style={detailStyle}>
+                      <strong>THEME:</strong> RIGHTS AND RESPONSIBILITIES
+                    </div>
+                    <div style={detailStyle}>
+                      <strong>WORD COUNT:</strong> 1,375
+                    </div>
+                    <div style={detailStyle}>
+                      <strong>DIVISION:</strong> JUNIOR
+                    </div>
+                    <div style={detailStyle}>
+                      <strong>MEMBERS:</strong> HANSONG ZHU(8th) & JUSTIN SUN(8th)
+                    </div>
+                    <div style={detailStyle}>
+                      <strong>PROJECT TYPE:</strong> WEBSITE
+                    </div>
+                    <Credits />
                   </div>
-                  <div style={detailStyle}>
-                    <strong>THEME:</strong> RIGHTS AND RESPONSIBILITIES
-                  </div>
-                  <div style={detailStyle}>
-                    <strong>WORD COUNT:</strong> 1,375
-                  </div>
-                  <div style={detailStyle}>
-                    <strong>DIVISION:</strong> JUNIOR
-                  </div>
-                  <div style={detailStyle}>
-                    <strong>MEMBERS:</strong> HANSONG ZHU(8th) & JUSTIN SUN(8th)
-                  </div>
-                  <div style={detailStyle}>
-                    <strong>PROJECT TYPE:</strong> WEBSITE
-                  </div>
-                  <Credits />
-                </div>
-              </FadeIn>
+                </FadeIn>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </>
+      </>
+    </ScrollToTop>
   );
 };
 

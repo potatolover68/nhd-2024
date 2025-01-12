@@ -8,6 +8,7 @@ import { Navbar, nav } from "./common/Nav";
 import { ScrollReveal, FadeIn } from "./common/ScrollAnimation";
 import { Title } from "./common/Title";
 import { SpacingBlock } from "./common/SpacingBlock";
+import { ScrollToTop } from "./common/ScrollToTop";
 import Credits from "./common/Credits";
 
 const bgStyle = {
@@ -36,7 +37,7 @@ const contentStyle = {
 
 const Background = () => {
   return (
-    <>
+    <ScrollToTop>
       <div style={bgStyle} />
       <div style={appStyle} className="app-container">
         <div style={contentStyle}>
@@ -173,7 +174,7 @@ const Background = () => {
           <Credits />
         </div>
       </div>
-    </>
+    </ScrollToTop>
   );
 };
 
