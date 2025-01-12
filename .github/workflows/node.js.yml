@@ -38,9 +38,11 @@ jobs:
     
     - name: Build
       run: yarn build
+    - name: Git Login
+      run: git config --global user.email "111818540+potatolover68@users.noreply.github.com" && git config --global user.name "potatolover68"
     - name: Deploy
       run: yarn run deploy
-    
+
     - name: Setup Pages
       uses: actions/configure-pages@v4
     
