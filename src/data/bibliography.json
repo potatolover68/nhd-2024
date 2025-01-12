@@ -254,5 +254,109 @@
     "type": "Secondary Sources - Images",
     "mediaType": "Image",
     "accessDate": "January 9, 2025"
+  },
+  {
+    "title": "Middle East Conflict and Civilian Protection",
+    "year": "2023",
+    "source": "International Committee of the Red Cross",
+    "url": "https://www.icrc.org/en/news-release/middle-east-de-escalation-and-protection-civilians-urgently-needed",
+    "type": "Images",
+    "annotation": "This image from ICRC's coverage of Middle East conflicts illustrates modern application of Geneva Convention principles regarding civilian protection. We use this visual to demonstrate the continuing relevance of the convention's humanitarian protections in contemporary conflicts."
+  },
+  {
+    "title": "In the name of mercy give",
+    "year": "1917",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Herter_-_In_the_name_of_mercy_give.jpg",
+    "type": "Images",
+    "annotation": "This World War I era poster illustrates how the principles of the Geneva Convention influenced humanitarian aid campaigns. The image helps demonstrate the lasting impact of the convention on public consciousness and humanitarian efforts."
+  },
+  {
+    "title": "Gray Ladies of the American Red Cross",
+    "year": "1943",
+    "source": "American Red Cross",
+    "url": "https://www.redcross.org/about-us/news-and-events/news/2023/women-an-important-part-of-red-cross-history.html",
+    "type": "Images",
+    "annotation": "This historical photograph shows the Gray Ladies of the Red Cross at work, illustrating how the Geneva Convention's principles led to expanded roles for women in humanitarian service. The image helps visualize the convention's impact on humanitarian aid development."
+  },
+  {
+    "title": "Ethiopian Conflict",
+    "year": "2023",
+    "source": "The Seattle Times/Associated Press",
+    "url": "https://www.seattletimes.com/nation-world/world/ethiopia-status-of-western-tigray-to-be-settled-by-law/",
+    "type": "Images",
+    "annotation": "This Associated Press photograph from the Ethiopian conflict illustrates modern applications of Geneva Convention principles in internal conflicts. The image helps visualize how the conventions continue to shape humanitarian responses in contemporary warfare."
+  },
+  {
+    "title": "Henry Dunant (young)",
+    "year": "1855",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Henry_Dunant-young.jpg",
+    "type": "Images",
+    "annotation": "This early photograph of Henry Dunant shows the founder of the Red Cross and initiator of the Geneva Convention in his youth, before his experience at Solferino. We use this image to help visualize the key figure behind the convention's creation and to provide historical context."
+  },
+  {
+    "title": "Red Cross Conference on Nuclear Weapons",
+    "year": "2019",
+    "source": "The New Humanitarian",
+    "url": "https://www.thenewhumanitarian.org/news/2019/12/13/Red-Cross-IHL-conference-global-politics",
+    "type": "Images",
+    "annotation": "This photograph from the Red Cross conference shows modern discussions about applying Geneva Convention principles to nuclear weapons. The image illustrates how the convention continues to evolve in response to new challenges in warfare and international relations."
+  },
+  {
+    "title": "Signing of the Geneva Convention",
+    "year": "1949",
+    "source": "United Nations Photo",
+    "url": "https://media.un.org/photo/en/asset/oun7/oun735345",
+    "type": "Images",
+    "annotation": "This photograph captures the historic signing of the 1949 Geneva Convention, a pivotal moment in expanding humanitarian protections. We use this image to illustrate the formal process of establishing international humanitarian law and the broad international participation in the conventions."
+  },
+  {
+    "title": "Geneva Convention World War II",
+    "year": "1945",
+    "source": "History.com",
+    "url": "https://www.history.com/topics/world-war-ii/geneva-convention",
+    "type": "Images",
+    "annotation": "This World War II era photograph illustrates the historical context that led to major revisions of the Geneva Conventions. The image helps visualize the wartime conditions that prompted the expansion of humanitarian protections in the 1949 conventions."
+  },
+  {
+    "title": "Middle East: De-escalation and protection of civilians urgently needed",
+    "year": "2023",
+    "source": "International Committee of the Red Cross",
+    "url": "https://www.icrc.org/en/news-release/middle-east-de-escalation-and-protection-civilians-urgently-needed",
+    "type": "Secondary Sources - Articles",
+    "annotation": "This article demonstrates the continued relevance and application of the Geneva Conventions in modern conflicts, particularly regarding civilian protection. We use this to show how the principles established by the First Geneva Convention continue to influence humanitarian responses today."
+  },
+  {
+    "title": "Women an Important Part of Red Cross History",
+    "year": "2023",
+    "source": "American Red Cross",
+    "url": "https://www.redcross.org/about-us/news-and-events/news/2023/women-an-important-part-of-red-cross-history.html",
+    "type": "Secondary Sources - Articles",
+    "annotation": "This article discusses the role of women in the Red Cross, particularly the Gray Ladies, showing how the Geneva Convention's principles led to broader humanitarian participation. We use this to demonstrate the convention's impact on expanding humanitarian service opportunities."
+  },
+  {
+    "title": "Ethiopia: Status of western Tigray to be settled by law",
+    "year": "2023",
+    "source": "The Seattle Times/Associated Press",
+    "url": "https://www.seattletimes.com/nation-world/world/ethiopia-status-of-western-tigray-to-be-settled-by-law/",
+    "type": "Secondary Sources - Articles",
+    "annotation": "This article covers the Ethiopian conflict and humanitarian concerns, demonstrating the ongoing relevance of Geneva Convention principles in modern internal conflicts. We use this to show how the conventions continue to shape discussions about humanitarian law in contemporary conflicts."
+  },
+  {
+    "title": "Red Cross conference fails to agree on nuclear weapons ban amid global tensions",
+    "year": "2019",
+    "source": "The New Humanitarian",
+    "url": "https://www.thenewhumanitarian.org/news/2019/12/13/Red-Cross-IHL-conference-global-politics",
+    "type": "Secondary Sources - Articles",
+    "annotation": "This article discusses modern challenges in implementing Geneva Convention principles in the context of nuclear weapons and global tensions. We use this to demonstrate how the convention continues to evolve and face new challenges in contemporary international relations."
+  },
+  {
+    "title": "Geneva Convention",
+    "year": "2018",
+    "source": "History.com",
+    "url": "https://www.history.com/topics/world-war-ii/geneva-convention",
+    "type": "Secondary Sources - Articles",
+    "annotation": "This comprehensive overview of the Geneva Convention provides historical context and explains its evolution through World War II. We use this source to understand how the conventions adapted to changing warfare and humanitarian needs, particularly focusing on the visual materials that document this evolution."
   }
 ]

@@ -52,7 +52,7 @@ const Background = () => {
               <ScrollReveal delay={300}>
                 <SectionLarge
                   header="Early Humanitarian Laws"
-                  image="/assets/de-guerre.jpg"
+                  image="/assets/deguerre2.jpg"
                   hasBackground={false}
                 >
                   <p>
