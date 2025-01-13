@@ -337,52 +337,40 @@ const Effects = () => {
                   Convention and article 4 of Additional Protocol II.
                 </p>
               </ItemEF>
-              <ItemEF image="/assets/2.jpg">
-                <h1 style={headingStyle}>Protection of Civilians</h1>
-                <div style={quoteWrapperStyle}>
-                  <InlineQuote>
-                    Article 13... The civilian population as such, as well as
-                    individual civilians, shall not be the object of attack.
-                    Acts or threats of violence the primary purpose of which is
-                    to spread terror among the civilian population are
-                    prohibited... Civilians shall enjoy the protection afforded
-                    by this Part, unless and for such time as they take a direct
-                    part in hostilities.
-                  </InlineQuote>
-                </div>
-                <p style={paragraphStyle}>
-                  Article 13 protects civilians while also ensuring belligerents
-                  are not injured by the civilian population.
-                </p>
-              </ItemEF>
-              <ItemEF image="/assets/rc-symbols.webp">
-                <h1 style={headingStyle}>Modern Developments</h1>
-                <div style={quoteWrapperStyle}>
-                  <InlineQuote>
-                    Since the nineteenth century the red cross and red crescent
-                    emblems have been used as universal symbols of assistance
-                    for armed conflict victims... the emblems are sometimes
-                    perceived in particular contexts as having a religious or
-                    political connotation... As a consequence, the emblems are
-                    not given the respect they are due, which diminishes the
-                    protection afforded those displaying them.
-                  </InlineQuote>
-                </div>
-                <p style={paragraphStyle}>
-                  To solve this, a third protocol was added during a conference
-                  which lasted from December 5 to 8 in 2005. It created a new
-                  emblem meant to be empty of any connotations. This symbol, the
-                  red crystal, was a square tilted on its corner on top of a
-                  white background.
-                </p>
-                <div style={quoteWrapperStyle}>
-                  <InlineQuote>
-                    Article 2... This Protocol recognizes an additional
-                    distinctive emblem in addition to, and for the same purposes
-                    as, the distinctive emblems of the Geneva Conventions. The
-                    distinctive emblems shall enjoy equal status.
-                  </InlineQuote>
-                </div>
+              <ItemEF image="/assets/rc-symbols.jpg">
+                <h1 style={headingStyle}>Short-Term Effects</h1>
+                The Geneva Conventions protected future wartime individuals
+                through creating rights and distributing responsibilities.
+                “Article 1. Ambulances and military hospitals shall be
+                recognized as neutral, and as such, protected and respected by
+                the belligerents as long as they accommodate wounded and sick.”
+                This article protects medical units and forces them to
+                accommodate and protect the injured. “Art. 6. Mobile sanitary
+                formations (i.e., those which are intended to accompany armies
+                in the field) and the fixed establishments belonging to the
+                sanitary service shall be protected and respected by
+                belligerents.” This protects sanitary organizations, which
+                protect civilians and soldiers. “Art. 4. The detaining Power is
+                required to provide for the maintenance of prisoners of war in
+                its charge.” This document protects prisoners of war. “Article
+                3…Persons taking no active part in the hostilities…shall in all
+                circumstances be treated humanely…” Protection is given to those
+                not in combat. “Article 17…The civilian population shall respect
+                the wounded, sick and shipwrecked, even if they belong to the
+                adverse Party, and shall commit no act of violence against
+                them.” This article shields the wounded from civilian attacks.
+                “Article 13…The civilian population as such, as well as
+                individual civilians, shall not be the object of
+                attack…Civilians shall enjoy the protection afforded by this
+                Part, unless and for such time as they take a direct part in
+                hostilities.” Article 13 protects civilians while also ensuring
+                belligerents are not injured by the civilian population.
+                “Article 2…This Protocol recognizes an additional distinctive
+                emblem in addition to, and for the same purposes as, the
+                distinctive emblems of the Geneva Conventions. The distinctive
+                emblems shall enjoy equal status.” This text protects users of
+                emblems such as medical personnel by creating a new one without
+                connotations decreasing effectiveness.
               </ItemEF>
             </Carousel>
           </div>
