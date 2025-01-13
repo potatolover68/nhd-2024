@@ -73,6 +73,17 @@ const Effects = () => {
     opacity: 1,
   };
 
+  const subheadingStyle = {
+    fontSize: "1.8rem",
+    marginBottom: "1.2rem",
+    marginTop: "1.5rem",
+    color: "#fff",
+    textShadow: "0 2px 4px rgba(0, 0, 0, 0.3)",
+    transition: "all 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+    transform: "translateY(0)",
+    opacity: 1,
+  };
+
   return (
     <ScrollToTop>
       <>
@@ -133,7 +144,7 @@ const Effects = () => {
                   injured.
                 </p>
               </ItemEF>
-              <ItemEF image="/assets/icrcparliment.jpg">
+              <ItemEF image="/assets/icrcparliment.webp">
                 <h1 style={headingStyle}>Evolution After World War I</h1>
                 <p style={paragraphStyle}>
                   After World War I, it was clear the 1906 Convention and The
@@ -245,21 +256,7 @@ const Effects = () => {
                 </p>
               </ItemEF>
 
-              <ItemEF image="/assets/icrc-nurse.jpg">
-                <h1 style={headingStyle}>Protection of Shipwrecked</h1>
-                <InlineQuote>
-                  "Article 7…All the wounded, sick and shipwrecked, whether or
-                  not they have taken part in the armed conflict, shall be
-                  respected and protected."
-                </InlineQuote>
-                <p style={paragraphStyle}>
-                  This article grants certain individuals the right to respect
-                  and protection. The responsibility to obey these rights goes
-                  to belligerents.
-                </p>
-              </ItemEF>
-
-              <ItemEF image="/assets/icrc-badge.jpg">
+              <ItemEF image="/assets/icrc_badge.webp">
                 <h1 style={headingStyle}>The Red Crystal</h1>
                 <InlineQuote>
                   "Since the nineteenth century the red cross and red crescent
@@ -337,40 +334,94 @@ const Effects = () => {
                   Convention and article 4 of Additional Protocol II.
                 </p>
               </ItemEF>
-              <ItemEF image="/assets/rc-symbols.jpg">
+              <ItemEF image="/assets/icrc-nurse.jpeg">
                 <h1 style={headingStyle}>Short-Term Effects</h1>
-                The Geneva Conventions protected future wartime individuals
-                through creating rights and distributing responsibilities.
-                “Article 1. Ambulances and military hospitals shall be
-                recognized as neutral, and as such, protected and respected by
-                the belligerents as long as they accommodate wounded and sick.”
-                This article protects medical units and forces them to
-                accommodate and protect the injured. “Art. 6. Mobile sanitary
-                formations (i.e., those which are intended to accompany armies
-                in the field) and the fixed establishments belonging to the
-                sanitary service shall be protected and respected by
-                belligerents.” This protects sanitary organizations, which
-                protect civilians and soldiers. “Art. 4. The detaining Power is
-                required to provide for the maintenance of prisoners of war in
-                its charge.” This document protects prisoners of war. “Article
-                3…Persons taking no active part in the hostilities…shall in all
-                circumstances be treated humanely…” Protection is given to those
-                not in combat. “Article 17…The civilian population shall respect
-                the wounded, sick and shipwrecked, even if they belong to the
-                adverse Party, and shall commit no act of violence against
-                them.” This article shields the wounded from civilian attacks.
-                “Article 13…The civilian population as such, as well as
-                individual civilians, shall not be the object of
-                attack…Civilians shall enjoy the protection afforded by this
-                Part, unless and for such time as they take a direct part in
-                hostilities.” Article 13 protects civilians while also ensuring
-                belligerents are not injured by the civilian population.
-                “Article 2…This Protocol recognizes an additional distinctive
-                emblem in addition to, and for the same purposes as, the
-                distinctive emblems of the Geneva Conventions. The distinctive
-                emblems shall enjoy equal status.” This text protects users of
-                emblems such as medical personnel by creating a new one without
-                connotations decreasing effectiveness.
+                <p style={paragraphStyle}>
+                  The Geneva Conventions protected future wartime individuals
+                  through creating rights and distributing responsibilities.
+                </p>
+                <h2 style={subheadingStyle}>
+                  Protection for Medical Units and Sanitary Formations
+                </h2>
+                <InlineQuote>
+                  Article 1. Ambulances and military hospitals shall be
+                  recognized as neutral, and as such, protected and respected by
+                  the belligerents as long as they accommodate wounded and sick.
+                </InlineQuote>
+                <p style={paragraphStyle}>
+                  This article protects medical units and forces them to
+                  accommodate and protect the injured.
+                </p>
+                <InlineQuote>
+                  Art. 6. Mobile sanitary formations (i.e., those which are
+                  intended to accompany armies in the field) and the fixed
+                  establishments belonging to the sanitary service shall be
+                  protected and respected by belligerents.
+                </InlineQuote>
+                <p style={paragraphStyle}>
+                  This protects sanitary organizations, which protect civilians
+                  and soldiers.
+                </p>
+              </ItemEF>
+              <ItemEF image="/assets/usaf-pow.webp">
+                <h1 style={headingStyle}>Short-Term Effects</h1>
+                <p style={paragraphStyle}>
+                  The Geneva Conventions protected future wartime individuals
+                  through creating rights and distributing responsibilities.
+                </p>
+                <h2 style={subheadingStyle}>
+                  Protection for Prisoners of War and those Not in Combat
+                </h2>
+                <InlineQuote>
+                  Art. 4. The detaining Power is required to provide for the
+                  maintenance of prisoners of war in its charge.
+                </InlineQuote>
+                <p style={paragraphStyle}>
+                  This article protects prisoners of war.
+                </p>
+                <InlineQuote>
+                  Article 3…Persons taking no active part in the hostilities…
+                  shall in all circumstances be treated humanely…
+                </InlineQuote>
+                <p style={paragraphStyle}>
+                  Protection is given to those not in combat.
+                </p>
+                <InlineQuote>
+                  Article 17…The civilian population shall respect the wounded,
+                  sick and shipwrecked, even if they belong to the adverse
+                  Party, and shall commit no act of violence against them.
+                </InlineQuote>
+                <p style={paragraphStyle}>
+                  This article shields the wounded from civilian attacks.
+                </p>
+              </ItemEF>
+              <ItemEF image="/assets/nanjing.webp">
+                <h1 style={headingStyle}>Short-Term Effects</h1>
+                <h2 style={subheadingStyle}>
+                  Protection for Civilian Population
+                </h2>
+                <InlineQuote>
+                  Article 13…The civilian population as such, as well as
+                  individual civilians, shall not be the object of
+                  attack…Civilians shall enjoy the protection afforded by this
+                  Part, unless and for such time as they take a direct part in
+                  hostilities.
+                </InlineQuote>
+                <p style={paragraphStyle}>
+                  Article 13 protects civilians while also ensuring belligerents
+                  are not injured by the civilian population.
+                </p>
+                <InlineQuote>
+                  Article 2…This Protocol recognizes an additional distinctive
+                  emblem in addition to, and for the same purposes as, the
+                  distinctive emblems of the Geneva Conventions. The distinctive
+                  emblems shall enjoy equal status.
+                </InlineQuote>
+                <p style={paragraphStyle}>
+                  This text protects users of emblems such as medical personnel
+                  by creating a new one without connotations decreasing
+                  effectiveness.
+                </p>
               </ItemEF>
             </Carousel>
           </div>

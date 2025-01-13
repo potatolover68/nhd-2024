@@ -147,36 +147,6 @@ const TTC = () => {
                   </p>
                 </SectionLarge>
               </ScrollReveal>
-
-              <ScrollReveal delay={300}>
-                <Section
-                  header="Care for the Wounded"
-                  image="/assets/1864-dc.jpg"
-                >
-                  <InlineQuote author="1st Geneva Convention">
-                    Art. 6. Wounded or sick combatants, to whatever nation they
-                    may belong, shall be collected and cared for.
-                    Commanders-in-Chief may hand over immediately to the enemy
-                    outposts enemy combatants wounded during an engagement, when
-                    circumstances allow and subject to the agreement of both
-                    parties. Those who, after their recovery, are recognized as
-                    being unfit for further service, shall be repatriated. The
-                    others may likewise be sent back, on condition that they
-                    shall not again, for the duration of hostilities, take up
-                    arms. Evacuation parties, and the personnel conducting them,
-                    shall be considered as being absolutely neutral.
-                  </InlineQuote>
-                  <p>
-                    All injured soldiers have the right to care. If after
-                    treatment, one cannot continue fighting, they have the right
-                    to be sent back to their country. Evacuation organizers and
-                    those evacuating have the right to protection. Those who
-                    participate in war have the responsibility of obeying these
-                    rights.
-                  </p>
-                </Section>
-              </ScrollReveal>
-
               <ScrollReveal delay={300}>
                 <SectionLarge
                   header="Identification Standards"

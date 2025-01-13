@@ -5,8 +5,6 @@ import { Navbar, nav } from "./common/Nav";
 import { FadeIn } from "./common/ScrollAnimation";
 import Credits from "./common/Credits";
 import { ScrollToTop } from "./common/ScrollToTop";
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
 
 const bgStyle = {
   position: "fixed",
@@ -55,8 +53,6 @@ const detailStyle = {
 };
 
 const App = () => {
-  const { pathname } = useLocation();
-
   return (
     <ScrollToTop>
       <>
@@ -93,7 +89,8 @@ const App = () => {
                       <strong>DIVISION:</strong> JUNIOR
                     </div>
                     <div style={detailStyle}>
-                      <strong>MEMBERS:</strong> HANSONG ZHU(8th) & JUSTIN SUN(8th)
+                      <strong>MEMBERS:</strong> HANSONG ZHU(8th) & JUSTIN
+                      SUN(8th)
                     </div>
                     <div style={detailStyle}>
                       <strong>PROJECT TYPE:</strong> WEBSITE

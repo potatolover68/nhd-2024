@@ -44,16 +44,15 @@ export function Carousel(props) {
     setMouseTimer(timer);
   };
 
-  useEffect(() => {
+  /*useEffect(() => {
     const timer = setInterval(() => {
       if (!isAnimating) {
         setSlideDirection("next");
         nextSlide();
       }
     }, 7000); // Auto advance every 7 seconds
-
     return () => clearInterval(timer);
-  }, [isAnimating, nextSlide]);
+  }, [isAnimating, nextSlide]);*/
 
   // Add keyboard navigation
   useEffect(() => {
