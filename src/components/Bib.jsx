@@ -104,8 +104,6 @@ export default function Bib() {
               website) it&#39;s really convenient to have components that can
               support all sorts of content. This incudes images, text and video.
             </p>
-            <h2>Why Yarn?</h2>
-            <p>Why not?</p>
             <h2>Why don&#39;t you just use the website builder?</h2>
             <p>
               There are just too many limitations, and to really make a website
@@ -118,7 +116,13 @@ export default function Bib() {
                 after considering for a bit, I decided that it was boneheaded to
                 copy-and-paste <code>&lt;div&gt;</code> tags for 10 hours so I
                 converted it to a react site.
-                <ul style={{ marginTop: "0.5rem", listStyle: "disc", paddingLeft: "2rem" }}>
+                <ul
+                  style={{
+                    marginTop: "0.5rem",
+                    listStyle: "disc",
+                    paddingLeft: "2rem",
+                  }}
+                >
                   <li style={{ marginBottom: "0.5rem" }}>
                     To convert the website, I first used{" "}
                     <code>yarn init react-app</code> to generate the template.

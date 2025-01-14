@@ -83,7 +83,7 @@ const App = () => {
                       <strong>THEME:</strong> RIGHTS AND RESPONSIBILITIES
                     </div>
                     <div style={detailStyle}>
-                      <strong>WORD COUNT:</strong> 1,375
+                      <strong>WORD COUNT:</strong> 1,196
                     </div>
                     <div style={detailStyle}>
                       <strong>DIVISION:</strong> JUNIOR
