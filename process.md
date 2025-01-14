@@ -20,10 +20,10 @@ When writing modular, content-oriented websites(like a NHD website) it's really 
 
 There are just too many limitations, and to really make a website that _pops_ I think making the site from scratch is worth the effort. I also took this as a learning opportunity.
 
-1. I originally started the site as just another static site, but after considering for a bit, I decided that it was boneheaded to copy-and-paste `<div>` tags for 10 hours so I converted it to a react site.
+1. I originally started the site as just another static site, but after considering for a bit, I decided that it was not very practical to copy-and-paste `<div>` tags for 10 hours so I converted it to a react site.
    1. To convert the website, I first used `yarn init react-app` to generate the template.
    2. I first copy-and-pasted each component into its own file, then I moved all the styles to their respective components.
-2. After receiving feedback that "the site is slightly ugly" I reworked it to look more professional.
+2. After receiving feedback that the site is not very visually appealing, I reworked it to look more professional.
 3. I moved the content into the site via manual copy-pasting.
 
 The site can be found on github at https://github.com/potatolover68/nhd-2024
