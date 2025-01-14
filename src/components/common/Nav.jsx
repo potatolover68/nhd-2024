@@ -5,14 +5,16 @@ export const nav = [
   ["Home", "/"],
   ["Thesis", "/thesis"],
   ["Background", "/background"],
-  ["Theme Topic Connections", "/ttc"],
+  ["TTC", "/ttc"],
   ["Effects", "/effects"],
-  ["Bibliography", "/bib"],
+  ["Paperwork", "/bib"],
+  ["Counter Argument", "/ca"],
 ];
 
 export function Navbar(props) {
   const [scrolled, setScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -25,6 +27,7 @@ export function Navbar(props) {
 
   const navStyle = {
     position: "fixed",
+    display: "flex",
     top: "1rem",
     left: "50%",
     transform: `translateX(-50%) translateY(${mounted ? "0" : "-20px"})`,
@@ -32,6 +35,7 @@ export function Navbar(props) {
     maxWidth: "1000px",
     padding: "0.5rem 1.25rem",
     display: "flex",
+    alignItems: "center",
     justifyContent: "space-between",
     alignItems: "center",
     background: scrolled ? "rgba(31, 31, 35, 0.85)" : "rgba(31, 31, 35, 0.75)",
@@ -52,6 +56,7 @@ export function Navbar(props) {
     display: "flex",
     gap: "1rem",
     alignItems: "center",
+    position: "relative",
   };
 
   const linkStyle = {

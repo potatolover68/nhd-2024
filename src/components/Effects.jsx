@@ -206,7 +206,7 @@ const Effects = () => {
                 </p>
               </ItemEF>
 
-              <ItemEF image="/assets/ap.jpg">
+              <ItemEF image="/assets/conf.jpg">
                 <h1 style={headingStyle}>Additional Protocols</h1>
                 <h2 style={subheadingStyle}>(1977) Additional Protocol I</h2>
                 <InlineQuote author="1977 Additional Protocol I">
@@ -288,7 +288,7 @@ const Effects = () => {
                 </p>
               </ItemEF>
 
-              <ItemEF image="/assets/conf.jpg">
+              <ItemEF image="/assets/rc-symbols-annex.png">
                 <h1 style={headingStyle}>Use of Emblems</h1>
                 <h2 style={subheadingStyle}>
                   (2005) Additional Protocol III - Article 4

@@ -7,6 +7,7 @@ import TTC from "./components/TTC";
 import Bib from "./components/Bib";
 import { ImagePreviewProvider } from "./context/ImagePreviewContext";
 import Thesis from "./components/Thesis";
+import CA from "./components/CA";
 
 export default function RTer() {
   return (
@@ -19,6 +20,7 @@ export default function RTer() {
           <Route path="/ttc" element={<TTC />} />
           <Route path="/bib" element={<Bib />} />
           <Route path="/thesis" element={<Thesis />} />
+          <Route path="/ca" element={<CA />} />
         </Routes>
       </Router>
     </ImagePreviewProvider>
