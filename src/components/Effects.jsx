@@ -95,9 +95,7 @@ const Effects = () => {
             <Carousel>
               <ItemEF image="/assets/un-icrc.jpg">
                 <h1 style={headingStyle}>Long-Term Effects</h1>
-                <h2 style={subheadingStyle}>
-                  (1864) The Original Geneva Convention
-                </h2>
+                <h2 style={subheadingStyle}>The 1906 Geneva Convention</h2>
                 <p style={paragraphStyle}>
                   The First Geneva Convention was not the only one. There were 3
                   other conventions and 3 additional protocols, each of which
