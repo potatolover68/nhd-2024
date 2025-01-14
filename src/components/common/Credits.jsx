@@ -13,9 +13,10 @@ const Credits = () => {
 
   const handleNavigation = (direction) => {
     const currentIndex = getCurrentIndex();
-    const nextIndex = direction === 'forward' 
-      ? (currentIndex + 1) % nav.length 
-      : (currentIndex - 1 + nav.length) % nav.length;
+    const nextIndex =
+      direction === "forward"
+        ? (currentIndex + 1) % nav.length
+        : (currentIndex - 1 + nav.length) % nav.length;
     navigate(nav[nextIndex][1]);
   };
 
@@ -29,14 +30,16 @@ const Credits = () => {
       }}
     >
       <div className="credits-content">
-        <div style={{ 
-          display: "flex", 
-          justifyContent: "center", 
-          gap: "20px",
-          marginBottom: "20px" 
-        }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "20px",
+            marginBottom: "20px",
+          }}
+        >
           <button
-            onClick={() => handleNavigation('back')}
+            onClick={() => handleNavigation("back")}
             style={{
               background: "rgba(31, 31, 35, 0.75)",
               border: "none",
@@ -49,7 +52,7 @@ const Credits = () => {
             ← Back
           </button>
           <button
-            onClick={() => handleNavigation('forward')}
+            onClick={() => handleNavigation("forward")}
             style={{
               background: "rgba(31, 31, 35, 0.75)",
               border: "none",
@@ -63,12 +66,12 @@ const Credits = () => {
           </button>
         </div>
         <p>
-          nhd24.dunce.party (c) {currentYear} Hansong Zhu & PotatoLover68(Justin
-          Sun). All Rights Reserved.
+          nhd24.dunce.party (c) {currentYear} Hansong Zhu & Justin Sun. All
+          Rights Reserved.
         </p>
         <p>
           <a href="http://nhd24.dunce.party">CONTENT of nhd24.dunce.party</a> by{" "}
-          <a href="http://dunce.party">PotatoLover68 and Hansong Zhu</a> is
+          <a href="http://dunce.party">Hansong Zhu and Justin Sun</a> is
           licensed under{" "}
           <a
             href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
