@@ -53,38 +53,19 @@ const Thesis = () => {
                     header="Thesis"
                     image="/assets\Henry_Dunant-young.jpg"
                   >
-                    In 1859, Genevan businessman Henry Dunant witnessed the
-                    Battle of Solferino on a trip to secure water and land
-                    rights in Algeria. Horrified by the violation of principles
-                    he viewed as unalienable, notably the rights and duties of
-                    belligerents to receive and provide medical assistance on
-                    the battlefield, he responded by writing A Memory of
-                    Solferino (1862) to record his experience and propose
-                    solutions. Despite his effort to intervene, the rights of
-                    prisoners and injured soldiers was not a given historically
-                    and often considered by European nations to be suspended
-                    during periods of armed conflict. In other words, rights of
-                    soldiers were entirely dependent on the country to provide
-                    these standards and often could be abandoned in the name of
-                    military or political necessity, as Dunant saw through the
-                    example of 40,000 casualties. In this context, how did
-                    Dunant create new bodies that could finally hold
-                    governments, military officers, and relief organizations
-                    responsible? After organizing aid and forming the Red Cross
-                    (1863), Dunant’s writings and the public outrage that ensued
-                    inspired representatives to convene and discuss methods to
-                    decrease suffering in areas of conflict. This assembly,
-                    known as the First Geneva Convention (1864), led to the
-                    creation of the earliest version of the Geneva Convention,
-                    an agreement signed by 12 nations that established an
-                    international humanitarian law for the first time. In the
-                    context of a new and decentralized understanding of
-                    humanitarian ethics, brought to the fore by public opinion,
-                    the effort to grant countries the responsibility to uphold
-                    de juris rights could finally succeed. The document not only
-                    started protecting wartime individuals immediately upon
-                    going into effect, but also provided a basis for further
-                    changes and protections to prevent future atrocities.
+                    Before 1864, European nations did not formally acknowledge
+                    the rights and duties of belligerents, citing military or
+                    political necessity. The writings of Genevan business Henry
+                    Dunant, eyewitness to the bloody Battle of Solferino,
+                    inspiring representatives to form the First Geneva
+                    Convention and to establish international humanitarian law
+                    for the first time. With Dunant’s new humanitarian ethics,
+                    counties had the responsibility to uphold new rights granted
+                    to war participants. The agreement enshrined rights of
+                    wartime individuals immediately upon going into effect,
+                    provided a basis for future preventions of atrocities
+                    through new conventions, and allowed prosecutors to sue
+                    violators, creating cases long after its creation.
                   </SectionLarge>
                 </ScrollReveal>
               </div>

@@ -7,8 +7,8 @@ export const nav = [
   ["Background", "/background"],
   ["TTC", "/ttc"],
   ["Effects", "/effects"],
-  ["Paperwork", "/bib"],
   ["Counter Argument", "/ca"],
+  ["Paperwork", "/bib"],
 ];
 
 export function Navbar(props) {
