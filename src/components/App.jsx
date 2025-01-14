@@ -66,21 +66,11 @@ const App = () => {
             </div>
             <div className="center">
               <div className="main">
-                <FadeIn delay={200}>
-                  <Quote author="Henry Dunant">
-                    Suffering is universal, and the Red Cross strives to give
-                    assistance and protection to all those who suffer, wherever
-                    they may be.
-                  </Quote>
-                </FadeIn>
                 <FadeIn delay={400}>
                   <div style={projectInfoStyle}>
                     <h1 style={titleStyle}>2025 NHD</h1>
                     <div style={detailStyle}>
-                      <strong>TOPIC:</strong> THE FIRST GENEVA CONVENTION
-                    </div>
-                    <div style={detailStyle}>
-                      <strong>THEME:</strong> RIGHTS AND RESPONSIBILITIES
+                      <strong>TITLE:</strong> THE FIRST GENEVA CONVENTION
                     </div>
                     <div style={detailStyle}>
                       <strong>WORD COUNT:</strong> 1,196
@@ -93,7 +83,7 @@ const App = () => {
                       SUN(8th)
                     </div>
                     <div style={detailStyle}>
-                      <strong>PROJECT TYPE:</strong> WEBSITE
+                      <strong>CATEGORY:</strong> GROUP WEBSITE
                     </div>
                     <Credits />
                   </div>
