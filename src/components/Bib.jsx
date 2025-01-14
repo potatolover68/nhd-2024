@@ -110,7 +110,7 @@ export default function Bib() {
               that <em>pops</em> I think making the site from scratch is worth
               the effort. I also took this as a learning opportunity.
             </p>
-            <ol>
+            <ol style={{ marginLeft: "1.5rem" }}>
               <li>
                 I originally started the site as just another static site, but
                 after considering for a bit, I decided that it was not very

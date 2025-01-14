@@ -59,7 +59,7 @@ const Thesis = () => {
                     Dunant, eyewitness to the bloody Battle of Solferino,
                     inspired representatives to form the First Geneva Convention
                     and to establish international humanitarian law for the
-                    first time. With Dunant’s new humanitarian ethics, counties
+                    first time. With Dunant's new humanitarian ethics, counties
                     had the responsibility to uphold new rights granted to war
                     participants. The agreement began protecting individuals in
                     warzones immediately upon going into effect, provided a
