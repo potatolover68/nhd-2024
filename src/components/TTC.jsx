@@ -184,8 +184,7 @@ const TTC = () => {
                   <p>
                     This text makes Commanders-in-Chief responsible for
                     implementing the articles in a way which obeys it and their
-                    government. Both articles 9 and 10 are not related to the
-                    theme.
+                    government.
                   </p>
                 </Section>
               </ScrollReveal>
