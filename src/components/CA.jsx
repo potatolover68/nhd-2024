@@ -52,31 +52,44 @@ const CA = () => {
           <div className="center">
             <div className="main">
               <ScrollReveal delay={300}>
-                <Section header={"Counter-Argument"}>
-                  <InlineQuote author={"Washington Post"}>
+                <Section
+                  header={"Counter-Argument"}
+                  image="/assets/gestapo.webp"
+                >
+                  <InlineQuote
+                    author={"Bussman and Schneider, Washington Post"}
+                  >
                     ...as each nation's signing of the Geneva Convention fades
                     further into history, we can expect its number of civilian
                     killings to increase.
                   </InlineQuote>{" "}
-                  <InlineQuote>
+                  <InlineQuote
+                    author={"Bussman and Schneider, Washington Post"}
+                  >
                     ...we find that international rules especially fail to reach
                     rebel forces and that the use of force among rebel groups
                     also increases with the years since the ratification of the
                     two treaties.
                   </InlineQuote>{" "}
-                  <InlineQuote>
+                  <InlineQuote
+                    author={"Bussman and Schneider, Washington Post"}
+                  >
                     ...when we compared civil war countries in which the ICRC
                     had established a delegation with countries in which the
                     ICRC was not permanently present neither the on-site, we
                     found that neither having them on site nor their seminars on
                     international humanitarian law reduced attacks on civilians.
                   </InlineQuote>{" "}
-                  <InlineQuote>
+                  <InlineQuote
+                    author={"Bussman and Schneider, Washington Post"}
+                  >
                     The ICRC reacts to international humanitarian law abuses.
                     But its public condemnations do not reduce the carnage in
                     the weeks that follow.
                   </InlineQuote>{" "}
-                  <InlineQuote>
+                  <InlineQuote
+                    author={"Bussman and Schneider, Washington Post"}
+                  >
                     But our findings do not necessarily suggest that the world
                     should entirely abandon the Laws of War and related
                     international norms. Rather, such agreements may need better
