@@ -95,6 +95,9 @@ const Effects = () => {
             <Carousel>
               <ItemEF image="/assets/un-icrc.jpg">
                 <h1 style={headingStyle}>Long-Term Effects</h1>
+                <h2 style={subheadingStyle}>
+                  (1864) The Original Geneva Convention
+                </h2>
                 <p style={paragraphStyle}>
                   The First Geneva Convention was not the only one. There were 3
                   other conventions and 3 additional protocols, each of which
@@ -109,7 +112,7 @@ const Effects = () => {
                   new document was agreed to.
                 </p>
                 <div style={quoteWrapperStyle}>
-                  <InlineQuote>
+                  <InlineQuote author="1906 Geneva Convention">
                     With 33 articles divided into eight chapters, the Convention
                     of 1906 is more detailed and more precise in its terminology
                     than the Convention of 1864. New provisions were included
@@ -126,8 +129,9 @@ const Effects = () => {
               </ItemEF>
               <ItemEF image="/assets/solferino-battle-2.jpg">
                 <h1 style={headingStyle}>Protection of the Wounded</h1>
+                <h2 style={subheadingStyle}>(1906) Geneva Convention Update</h2>
                 <div style={quoteWrapperStyle}>
-                  <InlineQuote>
+                  <InlineQuote author="1906 Geneva Convention - Article 3">
                     Art. 3. After every engagement the belligerent who remains
                     in possession of the field of battle shall take measures to
                     search for the wounded and to protect the wounded and dead
@@ -146,6 +150,7 @@ const Effects = () => {
               </ItemEF>
               <ItemEF image="/assets/icrcparliment.webp">
                 <h1 style={headingStyle}>Evolution After World War I</h1>
+                <h2 style={subheadingStyle}>(1929) Geneva Convention</h2>
                 <p style={paragraphStyle}>
                   After World War I, it was clear the 1906 Convention and The
                   Hague Convention of 1907 didn't go far enough. In 1929,
@@ -153,14 +158,14 @@ const Effects = () => {
                   prisoners of war.
                 </p>
                 <div style={quoteWrapperStyle}>
-                  <InlineQuote>
+                  <InlineQuote author="1929 Geneva Convention">
                     The most important innovations consisted in the prohibition
                     of reprisals and collective penalties, the organization of
                     prisoners' work, the designation, by the prisoners, of
                     representatives and the control exercised by protecting
                     Powers.
                   </InlineQuote>
-                  <InlineQuote>
+                  <InlineQuote author="1929 Geneva Convention - Article 2">
                     Art. 2. Prisoners of war are in the power of the hostile
                     Government, but not of the individuals or formation which
                     captured them. They shall at all times be humanely treated
@@ -175,7 +180,8 @@ const Effects = () => {
               </ItemEF>
               <ItemEF image="/assets/wwii-civilians.webp">
                 <h1 style={headingStyle}>Protection of Civilians</h1>
-                <InlineQuote>
+                <h2 style={subheadingStyle}>(1949) Fourth Geneva Convention</h2>
+                <InlineQuote author="1949 Fourth Geneva Convention">
                   "The Geneva Conventions which were adopted before 1949 were
                   concerned with combatants only, not with civilians…The events
                   of World War II showed the disastrous consequences of the
@@ -187,7 +193,7 @@ const Effects = () => {
                   A major detail about the document was that one of its focuses
                   was on civilian rights and responsibilities.
                 </p>
-                <InlineQuote>
+                <InlineQuote author="1949 Fourth Geneva Convention - Article 5">
                   "Article 5…Where in occupied territory an individual protected
                   person is detained as a spy or saboteur…such person shall…be
                   regarded as having forfeited rights of communication under the
@@ -202,7 +208,8 @@ const Effects = () => {
 
               <ItemEF image="/assets/ap.jpg">
                 <h1 style={headingStyle}>Additional Protocols</h1>
-                <InlineQuote>
+                <h2 style={subheadingStyle}>(1977) Additional Protocol I</h2>
+                <InlineQuote author="1977 Additional Protocol I">
                   "In the decades following World War II, the large number of
                   anticolonial and insurrectionary wars threatened to render the
                   Geneva Conventions obsolete. After four years of Red
@@ -224,7 +231,10 @@ const Effects = () => {
 
               <ItemEF image="/assets/solferino.jpg">
                 <h1 style={headingStyle}>Protection of Wounded and Sick</h1>
-                <InlineQuote>
+                <h2 style={subheadingStyle}>
+                  (1977) Additional Protocol I - Article 10
+                </h2>
+                <InlineQuote author="1977 Additional Protocol I - Article 10">
                   "Article 10…All the wounded, sick and shipwrecked, to
                   whichever Party they belong, shall be respected and
                   protected."
@@ -238,7 +248,8 @@ const Effects = () => {
 
               <ItemEF image="/assets/ihl-conference.webp">
                 <h1 style={headingStyle}>Non-International Armed Conflicts</h1>
-                <InlineQuote>
+                <h2 style={subheadingStyle}>(1977) Additional Protocol II</h2>
+                <InlineQuote author="1977 Additional Protocol II">
                   "The only provision applicable to non-international armed
                   conflicts before the adoption of the present Protocol was
                   Article 3 common to all four Geneva Conventions of 1949. This
@@ -258,7 +269,8 @@ const Effects = () => {
 
               <ItemEF image="/assets/icrc_badge.webp">
                 <h1 style={headingStyle}>The Red Crystal</h1>
-                <InlineQuote>
+                <h2 style={subheadingStyle}>(2005) Additional Protocol III</h2>
+                <InlineQuote author="2005 Additional Protocol III">
                   "Since the nineteenth century the red cross and red crescent
                   emblems have been used as universal symbols of assistance for
                   armed conflict victims…the emblems are sometimes perceived in
@@ -278,7 +290,10 @@ const Effects = () => {
 
               <ItemEF image="/assets/conf.jpg">
                 <h1 style={headingStyle}>Use of Emblems</h1>
-                <InlineQuote>
+                <h2 style={subheadingStyle}>
+                  (2005) Additional Protocol III - Article 4
+                </h2>
+                <InlineQuote author="2005 Additional Protocol III - Article 4">
                   "Article 4…The International Committee of the Red Cross and
                   the International Federation of Red Cross and Red Crescent
                   Societies, and their duly authorized personnel, may use, in
@@ -343,7 +358,7 @@ const Effects = () => {
                 <h2 style={subheadingStyle}>
                   Protection for Medical Units and Sanitary Formations
                 </h2>
-                <InlineQuote>
+                <InlineQuote author="1864 Geneva Convention - Article 1">
                   Article 1. Ambulances and military hospitals shall be
                   recognized as neutral, and as such, protected and respected by
                   the belligerents as long as they accommodate wounded and sick.
@@ -352,7 +367,7 @@ const Effects = () => {
                   This article protects medical units and forces them to
                   accommodate and protect the injured.
                 </p>
-                <InlineQuote>
+                <InlineQuote author="1864 Geneva Convention - Article 6">
                   Art. 6. Mobile sanitary formations (i.e., those which are
                   intended to accompany armies in the field) and the fixed
                   establishments belonging to the sanitary service shall be
@@ -372,21 +387,21 @@ const Effects = () => {
                 <h2 style={subheadingStyle}>
                   Protection for Prisoners of War and those Not in Combat
                 </h2>
-                <InlineQuote>
+                <InlineQuote author="1929 Geneva Convention - Article 4">
                   Art. 4. The detaining Power is required to provide for the
                   maintenance of prisoners of war in its charge.
                 </InlineQuote>
                 <p style={paragraphStyle}>
                   This article protects prisoners of war.
                 </p>
-                <InlineQuote>
+                <InlineQuote author="1949 Geneva Convention - Article 3">
                   Article 3…Persons taking no active part in the hostilities…
                   shall in all circumstances be treated humanely…
                 </InlineQuote>
                 <p style={paragraphStyle}>
                   Protection is given to those not in combat.
                 </p>
-                <InlineQuote>
+                <InlineQuote author="1949 Geneva Convention - Article 17">
                   Article 17…The civilian population shall respect the wounded,
                   sick and shipwrecked, even if they belong to the adverse
                   Party, and shall commit no act of violence against them.
@@ -400,7 +415,7 @@ const Effects = () => {
                 <h2 style={subheadingStyle}>
                   Protection for Civilian Population
                 </h2>
-                <InlineQuote>
+                <InlineQuote author="1949 Geneva Convention - Article 13">
                   Article 13…The civilian population as such, as well as
                   individual civilians, shall not be the object of
                   attack…Civilians shall enjoy the protection afforded by this
@@ -411,7 +426,7 @@ const Effects = () => {
                   Article 13 protects civilians while also ensuring belligerents
                   are not injured by the civilian population.
                 </p>
-                <InlineQuote>
+                <InlineQuote author="2005 Additional Protocol III - Article 2">
                   Article 2…This Protocol recognizes an additional distinctive
                   emblem in addition to, and for the same purposes as, the
                   distinctive emblems of the Geneva Conventions. The distinctive

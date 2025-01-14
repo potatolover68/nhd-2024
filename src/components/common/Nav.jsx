@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 export const nav = [
   ["Home", "/"],
+  ["Thesis", "/thesis"],
   ["Background", "/background"],
   ["Theme Topic Connections", "/ttc"],
   ["Effects", "/effects"],
   ["Bibliography", "/bib"],
-  ["Thesis", "/thesis"],
 ];
 
 export function Navbar(props) {
