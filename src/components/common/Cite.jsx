@@ -54,10 +54,10 @@ export function Cite({ title, year, source, url, children }) {
         <span style={titleStyle}>"{title}"</span>{" "}
         <span style={metaStyle}>
           {year && <span>{year}. </span>}
-          {source && <span>{source} - ... </span>}
+          {source && <span>{source}</span>}
+          <br />
           {url && (
             <span>
-              {" "}
               <a href={url} target="_blank" rel="noopener noreferrer">
                 {url}.
               </a>
