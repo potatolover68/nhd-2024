@@ -85,6 +85,9 @@ const App = () => {
                     <div style={detailStyle}>
                       <strong>CATEGORY:</strong> GROUP WEBSITE
                     </div>
+                    <div style={detailStyle}>
+                      <strong>MEDIA TIME:</strong> 0:00
+                    </div>
                     <Credits />
                   </div>
                 </FadeIn>

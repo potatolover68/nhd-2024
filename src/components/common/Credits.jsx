@@ -82,7 +82,7 @@ const Credits = () => {
             CC BY-NC-SA 4.0
           </a>
         </p>
-        <p>Created for National History Day 2024</p>
+        <p>Created for National History Day 2025</p>
       </div>
     </footer>
   );
