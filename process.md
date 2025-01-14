@@ -16,10 +16,6 @@ This was my first _"large"_ React Project(I mostly just used pure HTML before), 
 
 When writing modular, content-oriented websites(like a NHD website) it's really convenient to have components that can support all sorts of content. This incudes images, text and video.
 
-## Why Yarn?
-
-Why not?
-
 ## Why don't you just use the website builder?
 
 There are just too many limitations, and to really make a website that _pops_ I think making the site from scratch is worth the effort. I also took this as a learning opportunity.
