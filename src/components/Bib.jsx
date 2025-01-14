@@ -70,22 +70,22 @@ export default function Bib() {
               theme?
             </h1>
             <p>
-              We first were planning to discuss the Declaration of
-              Geneva(completely unrelated to the Geneva Conventions), a medical
-              ethics guideline that stated the responsibilities of a doctor. We
-              could not, however, find any rights directly linked to it, so we
-              decided to switch to the Geneva Conventions. The Geneva
-              Conventions is related to the annual theme &quot;Rights and
-              Responsibilities&quot; because he Geneva Conventions are a set of
-              documents that list the rights of medical personnel and civilians
-              in war, and the responsibilities of belligerents.
+              We first were planning to discuss the Declaration of Geneva
+              (completely unrelated to the Geneva Conventions), a medical ethics
+              guideline that stated the responsibilities of a doctor. We could
+              not, however, find any rights directly linked to it, so we decided
+              to switch to the Geneva Conventions. The Geneva Conventions is
+              related to the annual theme &quot;Rights and
+              Responsibilities&quot; because the Geneva Conventions are a set of
+              documents that list the rights and responsibilities of medical
+              personnel, civilians, and belligerents in war.
             </p>
             <h1>How did you conduct your research?</h1>
             <p>
-              We first gathered a list of sources and looked for images, videos,
-              and other media that could help us understand the topic. We also
-              used sites such as Encyclopedia Britannica, Wikipedia, and more to
-              find sources to support our argument.
+              We first gathered sources about each of the conventions, the
+              additional protocols, and a few court cases. After that, we found
+              all of our images. Finally, we found our counter argument source.
+              We researched by just googling.
             </p>
             <h1>How did you create your project?</h1>
             <p>
@@ -101,26 +101,26 @@ export default function Bib() {
             <h2>Why React?</h2>
             <p>
               When writing modular, content-oriented websites(like a NHD
-              website) it&#39;s really convenient to have components that can
+              website) it's really convenient to have components that can
               support all sorts of content. This incudes images, text and video.
             </p>
-            <h2>Why don&#39;t you just use the website builder?</h2>
+            <h2>Why don't you just use the website builder?</h2>
             <p>
               There are just too many limitations, and to really make a website
               that <em>pops</em> I think making the site from scratch is worth
-              the effort. I also took this as a learning opportunity.{" "}
+              the effort. I also took this as a learning opportunity.
             </p>
             <ol>
               <li>
                 I originally started the site as just another static site, but
-                after considering for a bit, I decided that it was boneheaded to
-                copy-and-paste <code>&lt;div&gt;</code> tags for 10 hours so I
-                converted it to a react site.
-                <ul
+                after considering for a bit, I decided that it was not very
+                practical to copy-and-paste <code>&lt;div&gt;</code> tags for 10
+                hours so I converted it to a react site.
+                <ol
                   style={{
                     marginTop: "0.5rem",
-                    listStyle: "disc",
-                    paddingLeft: "2rem",
+                    marginLeft: "1.5rem",
+                    listStyleType: "lower-alpha",
                   }}
                 >
                   <li style={{ marginBottom: "0.5rem" }}>
@@ -131,38 +131,32 @@ export default function Bib() {
                     I first copy-and-pasted each component into its own file,
                     then I moved all the styles to their respective components.
                   </li>
-                </ul>
+                </ol>
               </li>
               <li style={{ marginTop: "1rem" }}>
-                After receiving feedback that &quot;the site is slightly
-                ugly&quot; I reworked it to look more professional.
+                After receiving feedback that the site is not very visually
+                appealing, I reworked it to look more professional.
               </li>
               <li style={{ marginTop: "1rem" }}>
                 I moved the content into the site via manual copy-pasting.
               </li>
             </ol>
             <p>
-              The site can be found on github at{" "}
-              <a href="https://github.com/potatolover68/nhd-2024">
-                https://github.com/potatolover68/nhd-2024
-              </a>
-            </p>
-            <h1>What is your historical argument?</h1>
-            <p>
-              The Geneva Conventions set the groundwork for international
-              humanitarian law, saving millions of civilians and helping
-              innumerable soldiers during wartime. It also provided a framework
-              for the development of medical and humanitarian services. It
-              created rules battling brutalism in war and create a standard for
-              the protection of civilians.
+              The site can be found on github at
+              https://github.com/potatolover68/nhd-2024
             </p>
             <h1>In what ways is your topic significant in history?</h1>
             <p>
-              The Geneva Conventions revolutionized wartime medical care and had
-              a major effect on almost all conflicts following its introduction,
-              including both world wars and conflicts in the Middle East. The
+              The First Geneva Convention revolutionized wartime medical care
+              and was the first widespread humanitarian agreement. The
               conventions were a major part of the international humanitarian
-              response to the Holocaust and the Holocaust denial movement.
+              response to atrocities such as the Holocaust and devastating wars
+              such as World War 1, which caused the 1929 Geneva Convention. The
+              First Geneva Convention set the groundwork for international
+              humanitarian law. It also provided a framework for the development
+              of medical services in warzones. The conventions created rules
+              battling brutalism in war and created a standard for the
+              protection of civilians.
             </p>
           </Section>
           <Subtitle>Bibliography</Subtitle>

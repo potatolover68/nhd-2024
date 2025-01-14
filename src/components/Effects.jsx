@@ -110,7 +110,7 @@ const Effects = () => {
                   new document was agreed to.
                 </p>
                 <div style={quoteWrapperStyle}>
-                  <InlineQuote author="1906 Geneva Convention">
+                  <InlineQuote>
                     With 33 articles divided into eight chapters, the Convention
                     of 1906 is more detailed and more precise in its terminology
                     than the Convention of 1864. New provisions were included
@@ -156,7 +156,7 @@ const Effects = () => {
                   prisoners of war.
                 </p>
                 <div style={quoteWrapperStyle}>
-                  <InlineQuote author="1929 Geneva Convention">
+                  <InlineQuote>
                     The most important innovations consisted in the prohibition
                     of reprisals and collective penalties, the organization of
                     prisoners' work, the designation, by the prisoners, of
@@ -191,7 +191,7 @@ const Effects = () => {
                   A major detail about the document was that one of its focuses
                   was on civilian rights and responsibilities.
                 </p>
-                <InlineQuote author="1949 Fourth Geneva Convention - Article 5">
+                <InlineQuote>
                   "Article 5…Where in occupied territory an individual protected
                   person is detained as a spy or saboteur…such person shall…be
                   regarded as having forfeited rights of communication under the
@@ -207,7 +207,7 @@ const Effects = () => {
               <ItemEF image="/assets/conf.jpg">
                 <h1 style={headingStyle}>Additional Protocols</h1>
                 <h2 style={subheadingStyle}>(1977) Additional Protocol I</h2>
-                <InlineQuote author="1977 Additional Protocol I">
+                <InlineQuote>
                   "In the decades following World War II, the large number of
                   anticolonial and insurrectionary wars threatened to render the
                   Geneva Conventions obsolete. After four years of Red
@@ -247,7 +247,7 @@ const Effects = () => {
               <ItemEF image="/assets/ihl-conference.webp">
                 <h1 style={headingStyle}>Non-International Armed Conflicts</h1>
                 <h2 style={subheadingStyle}>(1977) Additional Protocol II</h2>
-                <InlineQuote author="1977 Additional Protocol II">
+                <InlineQuote>
                   "The only provision applicable to non-international armed
                   conflicts before the adoption of the present Protocol was
                   Article 3 common to all four Geneva Conventions of 1949. This
@@ -268,7 +268,7 @@ const Effects = () => {
               <ItemEF image="/assets/icrc_badge.webp">
                 <h1 style={headingStyle}>The Red Crystal</h1>
                 <h2 style={subheadingStyle}>(2005) Additional Protocol III</h2>
-                <InlineQuote author="2005 Additional Protocol III">
+                <InlineQuote>
                   "Since the nineteenth century the red cross and red crescent
                   emblems have been used as universal symbols of assistance for
                   armed conflict victims…the emblems are sometimes perceived in
@@ -365,7 +365,7 @@ const Effects = () => {
                   This article protects medical units and forces them to
                   accommodate and protect the injured.
                 </p>
-                <InlineQuote author="1864 Geneva Convention - Article 6">
+                <InlineQuote author="1906 Geneva Convention - Article 6">
                   Art. 6. Mobile sanitary formations (i.e., those which are
                   intended to accompany armies in the field) and the fixed
                   establishments belonging to the sanitary service shall be
@@ -399,7 +399,7 @@ const Effects = () => {
                 <p style={paragraphStyle}>
                   Protection is given to those not in combat.
                 </p>
-                <InlineQuote author="1949 Geneva Convention - Article 17">
+                <InlineQuote author="1997 Geneva Convention AP 1 - Article 17">
                   Article 17…The civilian population shall respect the wounded,
                   sick and shipwrecked, even if they belong to the adverse
                   Party, and shall commit no act of violence against them.
@@ -413,7 +413,7 @@ const Effects = () => {
                 <h2 style={subheadingStyle}>
                   Protection for Civilian Population
                 </h2>
-                <InlineQuote author="1949 Geneva Convention - Article 13">
+                <InlineQuote author="1997 Geneva Convention AP 2 - Article 13">
                   Article 13…The civilian population as such, as well as
                   individual civilians, shall not be the object of
                   attack…Civilians shall enjoy the protection afforded by this

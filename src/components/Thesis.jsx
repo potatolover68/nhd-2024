@@ -48,7 +48,7 @@ const Thesis = () => {
                 <SpacingBlock height="6rem" />
                 <Title>Thesis</Title>
                 <ScrollReveal>
-                  <Title>2024 NHD: Rights, and Responsibilities</Title>
+                  <Title>2025 NHD: Rights, and Responsibilities</Title>
                   <SectionLarge
                     header="Thesis"
                     image="/assets\Henry_Dunant-young.jpg"
@@ -57,15 +57,15 @@ const Thesis = () => {
                     the rights and duties of belligerents, citing military or
                     political necessity. The writings of Genevan business Henry
                     Dunant, eyewitness to the bloody Battle of Solferino,
-                    inspiring representatives to form the First Geneva
-                    Convention and to establish international humanitarian law
-                    for the first time. With Dunant’s new humanitarian ethics,
-                    counties had the responsibility to uphold new rights granted
-                    to war participants. The agreement enshrined rights of
-                    wartime individuals immediately upon going into effect,
-                    provided a basis for future preventions of atrocities
-                    through new conventions, and allowed prosecutors to sue
-                    violators, creating cases long after its creation.
+                    inspired representatives to form the First Geneva Convention
+                    and to establish international humanitarian law for the
+                    first time. With Dunant’s new humanitarian ethics, counties
+                    had the responsibility to uphold new rights granted to war
+                    participants. The agreement began protecting individuals in
+                    warzones immediately upon going into effect, provided a
+                    basis for future preventions of atrocities through new
+                    conventions, and allowed prosecutors to sue violators,
+                    creating cases long after its creation.
                   </SectionLarge>
                 </ScrollReveal>
               </div>

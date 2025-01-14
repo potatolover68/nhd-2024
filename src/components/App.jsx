@@ -60,7 +60,7 @@ const App = () => {
         <div style={appStyle} className="app-container">
           <div style={contentStyle}>
             <Navbar pages={nav} />
-            <Hero image="/assets/geneva.jpg">2024 NHD</Hero>
+            <Hero image="/assets/geneva.jpg">2025 NHD</Hero>
             <div className="scroll-indicator">
               <span>scroll down</span>
             </div>
@@ -68,12 +68,12 @@ const App = () => {
               <div className="main">
                 <FadeIn delay={400}>
                   <div style={projectInfoStyle}>
-                    <h1 style={titleStyle}>2024 NHD</h1>
+                    <h1 style={titleStyle}>2025 NHD</h1>
                     <div style={detailStyle}>
                       <strong>TITLE:</strong> THE FIRST GENEVA CONVENTION
                     </div>
                     <div style={detailStyle}>
-                      <strong>WORD COUNT:</strong> 1,196
+                      <strong>WORD COUNT:</strong> 1,197
                     </div>
                     <div style={detailStyle}>
                       <strong>DIVISION:</strong> JUNIOR

@@ -1,10 +1,10 @@
 # How did you choose your topic and how does it relate to the annual theme?
 
-We first were planning to discuss the Declaration of Geneva(completely unrelated to the Geneva Conventions), a medical ethics guideline that stated the responsibilities of a doctor. We could not, however, find any rights directly linked to it, so we decided to switch to the Geneva Conventions. The Geneva Conventions is related to the annual theme "Rights and Responsibilities" because he Geneva Conventions are a set of documents that list the rights of medical personnel and civilians in war, and the responsibilities of belligerents.
+We first were planning to discuss the Declaration of Geneva (completely unrelated to the Geneva Conventions), a medical ethics guideline that stated the responsibilities of a doctor. We could not, however, find any rights directly linked to it, so we decided to switch to the Geneva Conventions. The Geneva Conventions is related to the annual theme "Rights and Responsibilities" because the Geneva Conventions are a set of documents that list the rights and responsibilities of medical personnel, civilians, and belligerents in war.
 
 # How did you conduct your research?
 
-We first gathered a list of sources and looked for images, videos, and other media that could help us understand the topic. We also used sites such as Encyclopedia Britannica, Wikipedia, and more to find sources to support our argument.
+We first gathered sources about each of the conventions, the additional protocols, and a few court cases. After that, we found all of our images. Finally, we found our counter argument source. We researched by just googling.
 
 # How did you create your project?
 
@@ -28,10 +28,6 @@ There are just too many limitations, and to really make a website that _pops_ I 
 
 The site can be found on github at https://github.com/potatolover68/nhd-2024
 
-# What is your historical argument?
-
-The Geneva Conventions set the groundwork for international humanitarian law, saving millions of civilians and helping innumerable soldiers during wartime. It also provided a framework for the development of medical and humanitarian services. It created rules battling brutalism in war and create a standard for the protection of civilians.
-
 # In what ways is your topic significant in history?
 
-The Geneva Conventions revolutionized wartime medical care and had a major effect on almost all conflicts following its introduction, including both world wars and conflicts in the Middle East. The conventions were a major part of the international humanitarian response to the Holocaust and the Holocaust denial movement.
+The First Geneva Convention revolutionized wartime medical care and was the first widespread humanitarian agreement. The conventions were a major part of the international humanitarian response to atrocities such as the Holocaust and devastating wars such as World War 1, which caused the 1929 Geneva Convention. The First Geneva Convention set the groundwork for international humanitarian law. It also provided a framework for the development of medical services in warzones. The conventions created rules battling brutalism in war and created a standard for the protection of civilians.
